@@ -1,4 +1,4 @@
-<?php include ('otun-admin/php/dbfunctions/post.select.from.php');
+<?php include ('otun-admin/php/dbfunctions/post.select.from.php'); require_once ('otun-admin/php/dbfunctions/post.numview.php');
 	$pid = $_GET['page_post_id'];
 	$page = $_GET['currentpage'];
 	if ($page < 1) {
@@ -26,10 +26,10 @@
 	<title>otun&#8211;remmy&#8211;writes &#8211; otunremmy blog</title>
 	<link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
 	<link rel='dns-prefetch' href='http://s.w.org/' />
-	<script type="text/javascript">
+	<!--<script type="text/javascript">
 		window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/demo.mekshq.com\/voice\/otun-includes\/js\/wp-emoji-release.min.js?ver=4.6.1"}};
 		!function(a,b,c){function d(a){var c,d,e,f,g,h=b.createElement("canvas"),i=h.getContext&&h.getContext("2d"),j=String.fromCharCode;if(!i||!i.fillText)return!1;switch(i.textBaseline="top",i.font="600 32px Arial",a){case"flag":return i.fillText(j(55356,56806,55356,56826),0,0),!(h.toDataURL().length<3e3)&&(i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,65039,8205,55356,57096),0,0),c=h.toDataURL(),i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,55356,57096),0,0),d=h.toDataURL(),c!==d);case"diversity":return i.fillText(j(55356,57221),0,0),e=i.getImageData(16,16,1,1).data,f=e[0]+","+e[1]+","+e[2]+","+e[3],i.fillText(j(55356,57221,55356,57343),0,0),e=i.getImageData(16,16,1,1).data,g=e[0]+","+e[1]+","+e[2]+","+e[3],f!==g;case"simple":return i.fillText(j(55357,56835),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode8":return i.fillText(j(55356,57135),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode9":return i.fillText(j(55358,56631),0,0),0!==i.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity","unicode9"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
-	</script>
+	</script>-->
 	<!--<style type="text/css">
 		.modal {
 	    display: none; /* Hidden by default */
@@ -184,7 +184,7 @@
 									</li>
 								</ul>
 							</li>
-							<li id="menu-item-234" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-233"><a href="index0c2d.html?page_id=231">Health</a>
+							<li id="menu-item-234" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-233"><a href="otun-remmy-writes.health.php">Health</a>
 								<ul class="sub-menu">
 									<li id="menu-item-234" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-234"><a href="index0c2d.html?page_id=231">cat 1</a></li>
 									<li id="menu-item-237" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-237"><a href="index79e3.html?page_id=235">cat 2</a></li>
@@ -192,7 +192,7 @@
 									<li id="menu-item-243" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-243"><a href="index4180.html?page_id=241">cat 4</a></li>
 								</ul>
 							</li>
-							<li id="menu-item-233" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-233 current-menu-item page_item page-item-207 current_page_item menu-item-211"><a href="otun-remmy-writes.cat.php?cat=poem">Poems</a>
+							<li id="menu-item-233" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-233 current-menu-item page_item page-item-207 current_page_item menu-item-211"><a href="otun-remmy-writes.poem.php">Poems</a>
 								<ul class="sub-menu">
 									<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-243"><a href="otun-remmy-writes.post.php?cat=poem&subcat=End Time">End Time</a></li>
 									<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-237"><a href="otun-remmy-writes.post.php?cat=poem&subcat=Grace">Grace</a></li>
@@ -326,7 +326,7 @@
 								<p> <?php echo $postcontent; ?></p>
 							</div>
 							<div class="vce-share-bar">
-								<span><a href="#"><button style="color: #EEE;">like<i class="fa fa-check"></i></button></a></span>
+								<span><a name="likeform" id="li" href="otun-admin/php/dbfunctions/post.like.increment.php?page_post_id=<?php echo $pid ?>"><button style="color: #EEE; text-align: left;">like<i class="fa fa-check"></i><l id="like" style="padding-left: 10px;"><?php echo $postlikes; ?></l></button></a></span>
 							</div>
 						</article>
 					</main>

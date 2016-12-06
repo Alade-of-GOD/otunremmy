@@ -67,7 +67,7 @@
 		                </a>
 		            </div>
 		            <header class="entry-header">
-		                <span class="meta-category"><a href="otun-remmy-writes.cat.php?cat=poem" class="category-2">'.$title.'</a></span>
+		                <span class="meta-category"><a class="category-2">'.$title.'</a></span>
 		                <h2 class="entry-title">
 		                    <a href="otun-remmy-writes.post.view.php?page_post_id='.$postid.'&currentpage=1">'.$posttitle.'</a>
 		                </h2>

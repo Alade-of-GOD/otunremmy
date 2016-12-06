@@ -35,7 +35,7 @@
                 <div class="vce-grid-text">
                     <div class="vce-featured-info">
                         <div class="vce-featured-section">
-                            <a href="otun-remmy-writes.cat.php?cat='.$row['category'].'" class="category-2">'.$category.'</a>
+                            <a class="category-2">'.$category.'</a>
                          </div>
                         <h2 class="vce-featured-title">
                             <a class="vce-featured-link-article" href="otun-remmy-writes.post.view.php?page_post_id='.$postid.'&currentpage=1">'.$posttitle.'</a>

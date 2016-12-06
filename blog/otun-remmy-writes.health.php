@@ -142,7 +142,7 @@
 									</li>
 								</ul>
 							</li>
-							<li id="menu-item-234" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-233"><a href="index0c2d.html?page_id=231">Health</a>
+							<li id="menu-item-234" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item menu-item-has-children current_page_item menu-item-233"><a href="otun-remmy-writes.health.php">Health</a>
 								<ul class="sub-menu">
 									<li id="menu-item-234" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-234"><a href="index0c2d.html?page_id=231">cat 1</a></li>
 									<li id="menu-item-237" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-237"><a href="index79e3.html?page_id=235">cat 2</a></li>
@@ -150,7 +150,7 @@
 									<li id="menu-item-243" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-243"><a href="index4180.html?page_id=241">cat 4</a></li>
 								</ul>
 							</li>
-							<li id="menu-item-233" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-233 current-menu-item page_item page-item-207 current_page_item menu-item-211"><a href="otun-remmy-writes.cat.php?cat=poem">Poems</a>
+							<li id="menu-item-233" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-233 page_item page-item-207 menu-item-211"><a href="otun-remmy-writes.poem.php">Poems</a>
 								<ul class="sub-menu">
 									<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-243"><a href="otun-remmy-writes.post.php?cat=poem&subcat=End Time">End Time</a></li>
 									<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-237"><a href="otun-remmy-writes.post.php?cat=poem&subcat=Grace">Grace</a></li>
@@ -256,11 +256,11 @@
 				<div id="primary" class="vce-main-content">
 					<div class="main-box">
 						<div class="main-box-head">
-							<h1 class="main-box-title"><?php echo strtoupper($_GET['cat']); ?></h1>
+							<h1 class="main-box-title" style="color: #cf4d35;">HEALTH</h1>
 						</div>
 						<div class="main-box-inside">
 							<?php
-								include ('otun-admin/php/dbfunctions/post.shooter.php');
+								include ('otun-admin/php/dbfunctions/post.health.shooter.php');
 						 	?>
 							<div class="vce-loop-wrap" >
 							</div>
