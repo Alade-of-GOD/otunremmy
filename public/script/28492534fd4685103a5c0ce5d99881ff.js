@@ -1,4 +1,15 @@
 
+
+/* Minit: http://demo.mekshq.com/voice/wp-content/uploads/minit/1b87043f717a43da38340c846b8dcbd8.js */
+
+
+/* Minit: http://demo.mekshq.com/voice/wp-content/plugins/anti-spam/js/anti-spam-4.2.js */
+/*
+Anti-spam plugin
+No spam in comments. No captcha.
+wordpress.org/plugins/anti-spam/
+*/
+
 "use strict";
 (function() {
 	function anti_spam_init() {
@@ -26,7 +37,7 @@
 		for (i = 0; i < len; i++) { // set answer into other input instead of user
 			elements[i].value = answer;
 		}
-
+		
 		// clear value of the empty input because some themes are adding some value for all inputs
 		elements = document.querySelectorAll('.antispam-control-e');
 		len = elements.length;
@@ -641,7 +652,7 @@ jQuery(document).ready( function() {
         });
       }
 
-
+			
       $('body').on('click', '.mks-close-modal', function(e){
         e.preventDefault();
         mks_close_modal();
@@ -652,7 +663,7 @@ jQuery(document).ready( function() {
           if(!mks_is_desktop()){
             $("html, body").animate({ scrollTop: 0 }, 50);
             var window_height = $(window).height()+150;
-            $('#more-themes').css('height',  window_height + 'px');
+            $('#more-themes').css('height',  window_height + 'px');            
           }
 
           $('.modal-head.'+type).show();
@@ -831,7 +842,7 @@ jQuery(document).ready(function(){});
 * Author URI: http://mythemeshop.com/
 */
 jQuery(document).ready(function($) {
-
+	
 	$('.wp-review-comment-field.allowed-to-rate a').on('click', function() {
 		var $this = $(this),
 			$elem = $this.closest('.wp-review-comment-field');
@@ -841,7 +852,7 @@ jQuery(document).ready(function($) {
 			$elem.find('.wp_review_comment_rating').val($this.data('input-value'));
 		}
 	});
-
+	
 	var $commentFeedback = $('.wp-review-feedback');
 	$commentFeedback.on('click', 'a', function(e){
 		var $this = $(this);
@@ -869,9 +880,9 @@ jQuery(document).ready(function($) {
 			}
 		});
 	});
+	
 
-
-	/*
+	/* 
 		Add class to comment form
 	 */
 	if ($('#wp-review-comment-title-field').length) {
@@ -889,7 +900,7 @@ function wp_review_rate( $elem ) {// rating, postid, nonce ) {
 	var postid = $elem.find('.wp-review-user-rating-postid').val();
 	var token = $elem.find('.wp-review-user-rating-nonce').val();
 	var $target = $elem;
-
+	
 	if ( ! $target.is('.wp-review-user-rating') )
 		$target = $elem.closest('.wp-review-user-rating');
 
@@ -910,19 +921,19 @@ function wp_review_rate( $elem ) {// rating, postid, nonce ) {
 			if (typeof response.html !== 'undefined' && response.html != '') {
 				$target.empty().append(response.html).addClass('has-rated');
 			}
-
+				
 			// update text total
 			if (typeof response.rating_total !== 'undefined' && response.rating_total != '') {
-				$target.parent().find('.wp-review-user-rating-total').text(response.rating_total);
+				$target.parent().find('.wp-review-user-rating-total').text(response.rating_total);	
 			}
 			// update rating count
 			if (typeof response.rating_count !== 'undefined' && response.rating_count != '') {
-				$target.parent().find('.wp-review-user-rating-counter').text(response.rating_count);
+				$target.parent().find('.wp-review-user-rating-counter').text(response.rating_count);				
 			}
 		}
 	});
 
-
+	
 }
 
 
