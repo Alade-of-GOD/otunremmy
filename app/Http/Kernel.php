@@ -15,6 +15,11 @@ class Kernel extends HttpKernel
      */
     protected $middleware = [
         \Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode::class,
+        \otunremmywrites\Http\Middleware\EncryptCookies::class,
+        \Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse::class,
+        \Illuminate\Session\Middleware\StartSession::class,
+        \Illuminate\View\Middleware\ShareErrorsFromSession::class,
+        \otunremmywrites\Http\Middleware\VerifyCsrfToken::class,
     ];
 
     /**
@@ -51,6 +56,8 @@ class Kernel extends HttpKernel
         'bindings' => \Illuminate\Routing\Middleware\SubstituteBindings::class,
         'can' => \Illuminate\Auth\Middleware\Authorize::class,
         'guest' => \otunremmywrites\Http\Middleware\RedirectIfAuthenticated::class,
+        'Age' => \otunremmywrites\Http\Middleware\AgeMiddleWare::class,
         'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
+        'Role' => \otunremmywrites\Http\Middleware\RoleMiddleware::class,
     ];
 }

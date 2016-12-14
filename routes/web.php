@@ -30,3 +30,8 @@ Route::get('/contact', function() {
 Route::get('/t', function () {
     return view('t');
 });
+
+Route::get('role', [
+    'middleware' => 'Role:editor',
+    'uses' => 'TestController@index',
+]);
