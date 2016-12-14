@@ -32,6 +32,11 @@ Route::get('/t', function () {
 });
 
 Route::get('role', [
-    'middleware' => 'Role:editor',
+    'middleware' => 'Role:Admin',
     'uses' => 'TestController@index',
+]);
+
+Route::get('terminate',[
+    'middleware' => 'terminate',
+    'uses' => 'ABCController@index',
 ]);

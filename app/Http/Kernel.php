@@ -59,5 +59,6 @@ class Kernel extends HttpKernel
         'Age' => \otunremmywrites\Http\Middleware\AgeMiddleWare::class,
         'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
         'Role' => \otunremmywrites\Http\Middleware\RoleMiddleware::class,
+        'terminate' => \otunremmywrites\Http\middleware\TerminateMiddleware::class,
     ];
 }
