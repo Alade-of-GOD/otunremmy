@@ -249,22 +249,23 @@
 							<div class="entry-content page-content">
 								<p><i>fields with asterisks are compulsory</i></p>
 								<div role="form" lang="en-US" >
-									<form action="otun-admin/otun-admin.contact.inc.driveform.php" name="contactForm" method="post">
+									<form action="user/contact" name="contactForm" method="post">
+										<input type="hidden" name="_token" value="<?php echo csrf_token() ?>">
 										<p>Your Name
 											<span id="asName" style="color: #FF0000">&#x2731;</span><br />
-										    <span class="your-name"><input type="text" name="your-name" value="" size="40" onchange="valueEnterName()" id="your-name"/></span>
+										    <span class="your-name"><input type="text" name="name" value="" size="40" onchange="valueEnterName()" id="your-name"/></span>
 										</p>
 										<p>Your Email
 											<span id="asEmail" style="color: #FF0000;">&#x2731;</span><br />
-										    <span class="your-email"><input type="email" name="your-email" value="" size="40" onchange="valueEnterEmail()" id="your-email" /></span>
+										    <span class="your-email"><input type="email" name="email" value="" size="40" onchange="valueEnterEmail()" id="your-email" /></span>
 										</p>
 										<p>Subject
 											<span id="asSub" style="color: #FF0000;"></span><br />
-										    <span class="your-subject"><input type="text" name="your-subject" value="" size="40" id="your-subject" onchange="valueEnterSub()" /></span>
+										    <span class="your-subject"><input type="text" name="subject" value="" size="40" id="your-subject" onchange="valueEnterSub()" /></span>
 										</p>
 										<p>Your Message
 										<span id="asMessage" style="color: #FF0000;">&#x2731;</span><br />
-										    <span class="your-message"><textarea name="your-message" cols="40" rows="10" id="your-message" onchange="valueEnterMessage()"></textarea></span> </p>
+										    <span class="your-message"><textarea name="message" cols="40" rows="10" id="your-message" onchange="valueEnterMessage()"></textarea></span> </p>
 										<p><input id="checkBut" type="button" onclick="validateForm()" value="Submit"/> <input type="submit" name="submit" value="Send Message" id="submitBut" style="float: right; display: none;"></p>
 										<div class="">
 										</div>

@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 
 use otuncontroller\Http\Requests;
 use otunremmywrites\Http\Controllers\Controller;
+
 class MyController extends Controller
 {
     //
@@ -13,11 +14,11 @@ class MyController extends Controller
     {
         echo 'index';
     }
-    public function create()
+    public function create()        //get
     {
         echo 'create';
     }
-    public function store(Request $request)
+    public function store(Request $request)     //post
     {
         echo 'store';
     }
