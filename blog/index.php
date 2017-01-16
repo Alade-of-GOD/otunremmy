@@ -11,7 +11,7 @@
 
 	<script src="otun-content/themes/voice/js/html5.js"></script>
 
-	<title>otun&#8211;remmy&#8211;writes &#8211; otunremmy blog</title>
+	<title>otun writes &#8211; otunremmy blog</title>
 	<link rel="shortcut icon" href="otun-content/themes/voice/favicon.ico" type="image/x-icon" />
 	<link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
 	<link rel='dns-prefetch' href='http://s.w.org/' />
@@ -116,7 +116,7 @@
 				</div>
 				<div class="site-branding">
 					<h1 class="site-title">
-						<a href="index.php" title="otun-remmy-writes" class="has-logo"><label>otun&#8211;remmy&#8211;writes</label></a>
+						<a href="index.php" title="otunwrites" class="has-logo"><label>otun writes</label></a>
 					</h1>
 					<span class="site-description">otunremmy blog</span>
 				</div>
@@ -137,17 +137,13 @@
 											</li>
 											<li id="menu-item-430" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-430"><a href="index5fa3.html?page_id=422&amp;ha=2">Nigeria</a>
 											</li>
-											<li id="menu-item-429" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-429"><a href="indexfff4.html?page_id=420">Religion</a>
-											</li>
 											<li id="menu-item-430" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-430"><a href="index5fa3.html?page_id=422&amp;ha=2">Science and Technology</a>
 											</li>
 										</ul>
 									</li>
-									<li id="menu-item-743" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-743"><a href="#">Otun-remmy Forum</a>
-									</li>
 								</ul>
 							</li>
-							<li id="menu-item-234" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-233"><a href="otun-remmy-writes.health.php">Health</a>
+							<li id="menu-item-234" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-233"><a href="otunwrites.health.php">Health</a>
 								<ul class="sub-menu">
 									<li id="menu-item-234" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-234"><a href="#">cat 1</a></li>
 									<li id="menu-item-237" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-237"><a href="#">cat 2</a></li>
@@ -155,22 +151,22 @@
 									<li id="menu-item-243" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-243"><a href="#">cat 4</a></li>
 								</ul>
 							</li>
-							<li id="menu-item-233" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-233 page_item page-item-207 menu-item-211"><a href="otun-remmy-writes.poem.php">Poems</a>
+							<li id="menu-item-233" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-233 page_item page-item-207 menu-item-211"><a href="otunwrites.poem.php">Poems</a>
 								<ul class="sub-menu">
-									<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-243"><a href="otun-remmy-writes.post.php?cat=poem&subcat=End Time">End Time</a></li>
-									<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-237"><a href="otun-remmy-writes.post.php?cat=poem&subcat=Grace">Grace</a></li>
-									<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-240"><a href="otun-remmy-writes.post.php?cat=poem&subcat=Sacred">Sacred</a></li>
-									<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-243"><a href="otun-remmy-writes.post.php?cat=poem&subcat=Special">Special</a></li>
+									<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-243"><a href="otunwrites.post.php?cat=poem&subcat=End Time">End Time</a></li>
+									<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-237"><a href="otunwrites.post.php?cat=poem&subcat=Grace">Grace</a></li>
+									<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-240"><a href="otunwrites.post.php?cat=poem&subcat=Sacred">Sacred</a></li>
+									<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-243"><a href="otunwrites.post.php?cat=poem&subcat=Special">Special</a></li>
 								</ul>
 							</li>
-							<li id="menu-item-212"><a href="otun-remmy-writes.inspirational.php">Inspirational</a></li>
-							<li id="menu-item-212"><a href="otun-remmy-writes.about.php">About</a></li>
+							<li id="menu-item-212"><a href="otunwrites.inspirational.php">Inspirational</a></li>
+							<li id="menu-item-212"><a href="otunwrites.about.php">About</a></li>
 							<li id="menu-item-296" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-296"><a href="contact.inc.php">Contact</a>
 							</li>
 							<li class="search-header-wrap"><a class="search_header" href="javascript:void(0)"><i class="fa fa-search"></i></a>
 								<ul class="search-header-form-ul">
 									<li>
-										<form class="search-header-form" action="otun-remmy-writes.searchresult.php" method="post">
+										<form class="search-header-form" action="otunwrites.searchresult.php" method="post">
 											<input type="hidden" name="todo" value="search">
 											<input name="search_text" class="search-input" size="20" type="text" value="Type here to search..." onfocus="(this.value == 'Type here to search...') && (this.value = '')" onblur="(this.value == '') && (this.value = 'Type here to search...')" placeholder="Type here to search..." />
 										</form>
@@ -184,7 +180,7 @@
 		</header>
 		<div id="main-wrapper">
 			<!--<div class="vce-featured">
-			    <a href="#" title="otun-remmy-writes featured banner">
+			    <a href="#" title="otunwrites featured banner">
     	            <img width="1920" height="500" src="otun-content/uploads/2014/11/banner.jpg" class="attachment-vce-fa-full size-vce-fa-full wp-post-image" alt="voice_18" />
     	        </a>
 			</div>-->

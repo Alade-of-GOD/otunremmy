@@ -33,17 +33,17 @@
         echo '
             <article class="vce-post vce-lay-b post-203 post type-post status-publish format-standard has-post-thumbnail hentry category-environment category-technology tag-earth tag-ecology tag-solar-energy">
                 <div class="meta-image">
-                    <a href="otun-remmy-writes.post.view.php?page_post_id='.$postid.'&currentpage=1" title="'.$posttitle.'">
+                    <a href="otunwrites.post.view.php?page_post_id='.$postid.'&currentpage=1" title="'.$posttitle.'">
                         <img width="375" height="195" src="otun-content/post/feauturedimage/'.$postimage.'" class="attachment-vce-lay-b size-vce-lay-b wp-post-image" alt="'.$posttitle.'" />
                     </a>
                 </div>
                 <header class="entry-header">
                     <span class="meta-category">
                         <span>&bull;</span>
-                        <a href="otun-remmy-writes.'.strtolower($category).'.php" class="category-6">'.$category.'</a>
+                        <a href="otunwrites.'.strtolower($category).'.php" class="category-6">'.$category.'</a>
                     </span>
                     <h2 class="entry-title">
-                        <a href="otun-remmy-writes.post.view.php?page_post_id='.$postid.'&currentpage=1" title="">'.$posttitle.'</a>
+                        <a href="otunwrites.post.view.php?page_post_id='.$postid.'&currentpage=1" title="">'.$posttitle.'</a>
                     </h2>
                     <div class="entry-meta">
                         <div class="meta-item date"><span class="updated">'.$diff->format("%a days ago ").'</span></div>

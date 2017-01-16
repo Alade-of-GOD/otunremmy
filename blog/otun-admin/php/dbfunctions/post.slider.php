@@ -38,13 +38,13 @@
                             <a class="category-2">'.$category.'</a>
                          </div>
                         <h2 class="vce-featured-title">
-                            <a class="vce-featured-link-article" href="otun-remmy-writes.post.view.php?page_post_id='.$postid.'&currentpage=1">'.$posttitle.'</a>
+                            <a class="vce-featured-link-article" href="otunwrites.post.view.php?page_post_id='.$postid.'&currentpage=1">'.$posttitle.'</a>
                         </h2>
                         <div class="entry-meta"><div class="meta-item date"><span class="updated">'.$diff->format("%a days ago ").'</span></div></div>
                     </div>
                     <a href="indexbbbf.html?p=191" class="vce-featured-header-background"></a>
                 </div>
-                <a href="otun-remmy-writes.post.view.php?page_post_id='.$postid.'&currentpage=1" title="Stunning Health Benefits of Eating Chocolates">
+                <a href="otunwrites.post.view.php?page_post_id='.$postid.'&currentpage=1" title="Stunning Health Benefits of Eating Chocolates">
                     <img width="380" height="260" src="otun-content/post/feauturedimage/'.$postimage.'" class="attachment-vce-fa-grid size-vce-fa-grid wp-post-image" alt="'.$posttitle.'" sizes="(max-width: 380px) 100vw, 380px" />
                 </a>
             </div>

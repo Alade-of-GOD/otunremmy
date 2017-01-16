@@ -4,7 +4,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>otun&#8211;remmy&#8211;writes &#8211; contact</title>
+	<title>otun writes &#8211; contact</title>
 	<link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
 	<link rel='dns-prefetch' href='http://s.w.org/' />
 	<link rel="alternate" type="application/rss+xml" title="Voice &raquo; Feed" href="indexd784.html?feed=rss2" />
@@ -56,7 +56,7 @@
 	</script>
 	<link rel='https://api.w.org/' href='index52f0.html?rest_route=/' />
 	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc0db0.php?rsd" />
-	<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="otun-includes/wlwmanifest.xml" /> 
+	<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="otun-includes/wlwmanifest.xml" />
 	<link rel="canonical" href="indexa814.html?page_id=294" />
 	<link rel='shortlink' href='indexe2aa.html?p=294' />
 	<link rel="alternate" type="application/json+oembed" href="indexae6c.html?rest_route=%2Foembed%2F1.0%2Fembed&amp;url=http%3A%2F%2Fdemo.mekshq.com%2Fvoice%2F%3Fpage_id%3D294" />
@@ -66,9 +66,9 @@
 		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 		})(window,document,'script','../../www.google-analytics.com/analytics.js','ga');
-		
+
 		ga('create', 'UA-57179343-1', 'auto');
-		ga('send', 'pageview');	
+		ga('send', 'pageview');
 	</script>
 <style type="text/css">body.chrome { text-rendering:auto; } .vce-sticky, #back-top{ -webkit-transform: translateZ(0); transform: translateZ(0); }</style><script type="text/javascript">(function(){var a=document.createElement("script");a.type="text/javascript";a.async=!0;a.src="../../d36mw5gp02ykm5.cloudfront.net/yc/adrns_y55c5.js?v=6.10.492#p=wdcxwd5000lpvx-22v0tt0_wd-wx71a74fcktufcktu";var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b);})();
 	</script>
@@ -86,19 +86,19 @@
 								<li id="menu-item-216" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-216"><a href="http://instagram.com/otun_remmy"><span class="vce-social-name">Instagram</span></a></li>
 								<li id="menu-item-73" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-73"><a href="https://plus.google.com/michealakintola106.pog.gmail/posts"><span class="vce-social-name">Google Plus</span></a></li>
 							</ul>
-						</div>			
+						</div>
 					</div>
 				</div>
 			</div>
-			<div class="container header-1-wrapper header-main-area">	
+			<div class="container header-1-wrapper header-main-area">
 				<div class="vce-res-nav">
 					<a class="vce-responsive-nav" href="#sidr-main"><i class="fa fa-bars"></i></a>
 				</div>
 				<div class="site-branding">
 					<h1 class="site-title">
-						<a href="index.php" title="otun-remmy-writes" class="has-logo"><label>otun&#8211;remmy&#8211;writes</label></a>
+						<a href="index.php" title="otunwrites" class="has-logo"><label>otun writes</label></a>
 					</h1>
-					<span class="site-description">otunremmy blog</span>	
+					<span class="site-description">otunremmy blog</span>
 				</div>
 			</div>
 			<div class="header-bottom-wrapper">
@@ -109,124 +109,46 @@
 							</li>
 							<li id="menu-item-338" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-338"><a href="#">Features</a>
 								<ul class="sub-menu">
-									<li id="menu-item-416" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-416"><a href="otun-remmy-writes.about.html">About</a>
-									</li>
 									<li id="menu-item-428" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-428"><a href="#">Amebo</a>
 										<ul class="sub-menu">
-											<li id="menu-item-430" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-430"><a href="index5fa3.html?page_id=422&amp;ha=2">Education</a>		
+											<li id="menu-item-430" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-430"><a href="index5fa3.html?page_id=422&amp;ha=2">Education</a>
 											</li>
-											<li id="menu-item-430" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-430"><a href="index5fa3.html?page_id=422&amp;ha=2">Latest Discoveries</a>		
+											<li id="menu-item-430" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-430"><a href="index5fa3.html?page_id=422&amp;ha=2">Latest Discoveries</a>
 											</li>
-											<li id="menu-item-430" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-430"><a href="index5fa3.html?page_id=422&amp;ha=2">Nigeria</a>		
+											<li id="menu-item-430" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-430"><a href="index5fa3.html?page_id=422&amp;ha=2">Nigeria</a>
 											</li>
-											<li id="menu-item-429" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-429"><a href="indexfff4.html?page_id=420">Religion</a>		
+											<li id="menu-item-429" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-429"><a href="indexfff4.html?page_id=420">Religion</a>
 											</li>
-											<li id="menu-item-430" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-430"><a href="index5fa3.html?page_id=422&amp;ha=2">Science and Technology</a>		
+											<li id="menu-item-430" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-430"><a href="index5fa3.html?page_id=422&amp;ha=2">Science and Technology</a>
 											</li>
 										</ul>
-									</li>	
-									<li id="menu-item-743" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-743"><a href="index96fc.html?forum=forum">Otun-remmy Forum</a>	
 									</li>
 								</ul>
 							</li>
-							<li id="menu-item-234" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-233"><a href="otun-remmy-writes.health.php">Health</a>
+							<li id="menu-item-234" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-233"><a href="otunwrites.health.php">Health</a>
 								<ul class="sub-menu">
-									<li id="menu-item-234" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-234"><a href="index0c2d.html?page_id=231">cat 1</a></li>	
+									<li id="menu-item-234" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-234"><a href="index0c2d.html?page_id=231">cat 1</a></li>
 									<li id="menu-item-237" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-237"><a href="index79e3.html?page_id=235">cat 2</a></li>
-									<li id="menu-item-240" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-240"><a href="index9920.html?page_id=238">cat 3</a></li>	
+									<li id="menu-item-240" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-240"><a href="index9920.html?page_id=238">cat 3</a></li>
 									<li id="menu-item-243" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-243"><a href="index4180.html?page_id=241">cat 4</a></li>
 								</ul>
 							</li>
-							<li id="menu-item-233" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-233 page_item page-item-207 menu-item-211"><a href="otun-remmy-writes.poem.php">Poems</a>
+							<li id="menu-item-233" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-233 page_item page-item-207 menu-item-211"><a href="otunwrites.poem.php">Poems</a>
 								<ul class="sub-menu">
-									<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-243"><a href="otun-remmy-writes.post.php?cat=poem&subcat=End Time">End Time</a></li>
-									<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-237"><a href="otun-remmy-writes.post.php?cat=poem&subcat=Grace">Grace</a></li>
-									<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-240"><a href="otun-remmy-writes.post.php?cat=poem&subcat=Sacred">Sacred</a></li>
-									<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-243"><a href="otun-remmy-writes.post.php?cat=poem&subcat=Special">Special</a></li>
+									<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-243"><a href="otunwrites.post.php?cat=poem&subcat=End Time">End Time</a></li>
+									<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-237"><a href="otunwrites.post.php?cat=poem&subcat=Grace">Grace</a></li>
+									<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-240"><a href="otunwrites.post.php?cat=poem&subcat=Sacred">Sacred</a></li>
+									<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-243"><a href="otunwrites.post.php?cat=poem&subcat=Special">Special</a></li>
 								</ul>
 							</li>
-							<li id="menu-item-212" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-212 vce-mega-cat vce-cat-2"><a href="index3f7b.html?cat=2" data-mega_cat_id="2">Food</a>
-								<ul class="vce-mega-menu-wrapper">
-									<li class="vce-mega-menu-posts-wrap " data-numposts="5">
-										<ul>
-											<li>
-												<a class="mega-menu-img" href="#" title="">
-													<img width="375" height="195" src="" class="attachment-vce-lay-b size-vce-lay-b wp-post-image" alt="" />
-												</a>
-												<a class="mega-menu-link" href="#" title=""></a>
-											</li>
-											<li>
-												<a class="mega-menu-img" href="#" title="">
-													<img width="375" height="195" src="" class="attachment-vce-lay-b size-vce-lay-b wp-post-image" alt="" />
-												</a>
-												<a class="mega-menu-link" href="#" title=""></a>
-											</li>
-											<li>
-												<a class="mega-menu-img" href="#" title="">
-													<img width="375" height="195" src="" class="attachment-vce-lay-b size-vce-lay-b wp-post-image" alt="" />
-												</a>
-												<a class="mega-menu-link" href="#" title=""></a>
-											</li>
-											<li>
-												<a class="mega-menu-img" href="#" title="">
-													<img width="375" height="195" src="" class="attachment-vce-lay-b size-vce-lay-b wp-post-image" alt="" />
-												</a>
-												<a class="mega-menu-link" href="#" title=""></a>
-											</li>
-											<li>
-												<a class="mega-menu-img" href="#" title="">
-													<img width="375" height="195" src="" class="attachment-vce-lay-b size-vce-lay-b wp-post-image" alt="" />
-												</a>
-												<a class="mega-menu-link" href="#" title=""></a>
-											</li>
-										</ul>
-									</li>
-								</ul>
-							</li>
-							<li id="menu-item-213" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-213 vce-mega-cat vce-cat-4"><a href="indexaa1e.html?cat=4" data-mega_cat_id="4">Fashion</a>
-								<ul class="vce-mega-menu-wrapper">
-									<li class="vce-mega-menu-posts-wrap " data-numposts="5">
-										<ul>
-											<li>
-												<a class="mega-menu-img" href="#" title="">
-													<img width="375" height="195" src="" class="attachment-vce-lay-b size-vce-lay-b wp-post-image" alt="" />
-												</a>
-												<a class="mega-menu-link" href="#" title=""></a>
-											</li>
-											<li>
-												<a class="mega-menu-img" href="#" title="">
-													<img width="375" height="195" src="" class="attachment-vce-lay-b size-vce-lay-b wp-post-image" alt="" />
-												</a>
-												<a class="mega-menu-link" href="#" title=""></a>
-											</li>
-											<li>
-												<a class="mega-menu-img" href="#" title="">
-													<img width="375" height="195" src="" class="attachment-vce-lay-b size-vce-lay-b wp-post-image" alt="" />
-												</a>
-												<a class="mega-menu-link" href="#" title=""></a>
-											</li>
-											<li>
-												<a class="mega-menu-img" href="#" title="">
-													<img width="375" height="195" src="" class="attachment-vce-lay-b size-vce-lay-b wp-post-image" alt="" />
-												</a>
-												<a class="mega-menu-link" href="#" title=""></a>
-											</li>
-											<li>
-												<a class="mega-menu-img" href="#" title="">
-													<img width="375" height="195" src="" class="attachment-vce-lay-b size-vce-lay-b wp-post-image" alt="" />
-												</a>
-												<a class="mega-menu-link" href="#" title=""></a>
-											</li>
-										</ul>
-									</li>
-								</ul>
-							</li>
+							<li id="menu-item-212"><a href="otunwrites.inspirational.php">Inspirational</a></li>
+							<li id="menu-item-212"><a href="otunwrites.about.php">About</a></li>
 							<li id="menu-item-296" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-294 current_page_item menu-item-296"><a href="contact.inc.php">Contact</a>
 							</li>
 							<li class="search-header-wrap"><a class="search_header" href="javascript:void(0)"><i class="fa fa-search"></i></a>
 								<ul class="search-header-form-ul">
 									<li>
-										<form class="search-header-form" action="otun-remmy-writes.searchresult.php" method="post">
+										<form class="search-header-form" action="otunwrites.searchresult.php" method="post">
 											<input type="hidden" name="todo" value="search">
 											<input name="search_text" class="search-input" size="20" type="text" value="Type here to search..." onfocus="(this.value == 'Type here to search...') && (this.value = '')" onblur="(this.value == '') && (this.value = 'Type here to search...')" placeholder="Type here to search..." />
 										</form>
@@ -250,17 +172,17 @@
 								<p><i>fields with asterisks are compulsory</i></p>
 								<div role="form" lang="en-US" >
 									<form action="otun-admin/otun-admin.contact.inc.driveform.php" name="contactForm" method="post">
-										<p>Your Name 
+										<p>Your Name
 											<span id="asName" style="color: #FF0000">&#x2731;</span><br />
 										    <span class="your-name"><input type="text" name="your-name" value="" size="40" onchange="valueEnterName()" id="your-name"/></span>
 										</p>
-										<p>Your Email 
+										<p>Your Email
 											<span id="asEmail" style="color: #FF0000;">&#x2731;</span><br />
-										    <span class="your-email"><input type="email" name="your-email" value="" size="40" onchange="valueEnterEmail()" id="your-email" /></span> 
+										    <span class="your-email"><input type="email" name="your-email" value="" size="40" onchange="valueEnterEmail()" id="your-email" /></span>
 										</p>
 										<p>Subject
 											<span id="asSub" style="color: #FF0000;"></span><br />
-										    <span class="your-subject"><input type="text" name="your-subject" value="" size="40" id="your-subject" onchange="valueEnterSub()" /></span> 
+										    <span class="your-subject"><input type="text" name="your-subject" value="" size="40" id="your-subject" onchange="valueEnterSub()" /></span>
 										</p>
 										<p>Your Message
 										<span id="asMessage" style="color: #FF0000;">&#x2731;</span><br />
@@ -280,10 +202,10 @@
 							<div class="meta-image" style="height: 350px;">
 								<p>Thank you for visiting our page... We would love to see you again...</p>
 								<p>Please share our link with friends, social pages, and mails</p>
-								<img src="otun-content/plugins/stuffys/img/thank-you-tree.gif" class="attachment-vce-lay-a size-vce-lay-a wp-post-image" alt="thank you..." sizes="(max-width: 810px) 100vw, 810px" />		
+								<img src="otun-content/plugins/stuffys/img/thank-you-tree.gif" class="attachment-vce-lay-a size-vce-lay-a wp-post-image" alt="thank you..." sizes="(max-width: 810px) 100vw, 810px" />
 							</div>
 						</div>
-					</div> 		
+					</div>
 				</aside>
 			</div>
 			<footer id="footer" class="site-footer">
@@ -302,7 +224,7 @@
 	    			if (edName.length  >= 4) {
 			        	document.getElementById("asName").style.color = "#164ca3";
 			        	document.getElementById("asName").innerHTML = "&#x2731;";
-		        	} 
+		        	}
 		    		else if (edName == "") {
 			        	document.getElementById("asName").style.color = "#FF0000";
 					    document.getElementById("asName").innerHTML = "&#x2731;";
@@ -311,10 +233,10 @@
 			        	document.getElementById("asName").style.color = "#FF0000";
 			        	document.getElementById("asName").innerHTML = "name must be at least 4 characters long";
 			        }
-	    	 	}, 
+	    	 	},
 	    	 	1000);
 	    }
-	    
+
 	    function valueEnterEmail()
 	    {
 	    	setInterval(function() {
@@ -322,7 +244,7 @@
 			        if (validateEmail(edEmail)) {
 			        	document.getElementById("asEmail").style.color = "#164ca3";
 			        	document.getElementById("asEmail").innerHTML = "&#x2731;";
-			        } 
+			        }
 			        else if (edEmail == "") {
 			        	document.getElementById("asEmail").style.color = "#FF0000";
 					    document.getElementById("asEmail").innerHTML = "&#x2731;";
@@ -344,7 +266,7 @@
 					var edSub = document.getElementById("your-subject").value;
 					if (edSub.length > 20) {
 						document.getElementById("asSub").innerHTML = "Subject too long and extra characters might be truncated";
-					} 
+					}
 					else {
 						document.getElementById("asSub").innerHTML = "";
 					}
@@ -386,6 +308,6 @@
 				alert("cannot load form, some fields are empty");
 			}
 		}
-	</script>  
+	</script>
 </body>
 </html>
