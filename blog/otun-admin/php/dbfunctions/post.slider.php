@@ -44,7 +44,7 @@
                     </div>
                     <a href="indexbbbf.html?p=191" class="vce-featured-header-background"></a>
                 </div>
-                <a href="indexbbbf.html?p=191" title="Stunning Health Benefits of Eating Chocolates">
+                <a href="otun-remmy-writes.post.view.php?page_post_id='.$postid.'&currentpage=1" title="Stunning Health Benefits of Eating Chocolates">
                     <img width="380" height="260" src="otun-content/post/feauturedimage/'.$postimage.'" class="attachment-vce-fa-grid size-vce-fa-grid wp-post-image" alt="'.$posttitle.'" sizes="(max-width: 380px) 100vw, 380px" />
                 </a>
             </div>
