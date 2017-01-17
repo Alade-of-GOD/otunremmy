@@ -8,7 +8,7 @@
 
 	<script src="otun-content/themes/voice/js/html5.js"></script>
 
-	<title>otun&#8211;remmy&#8211;writes &#8211; otunremmy blog</title>
+	<title>otun writes &#8211; otunremmy blog</title>
 	<link rel="shortcut icon" href="otun-content/themes/voice/favicon.ico" type="image/x-icon" />
 	<link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
 	<link rel='dns-prefetch' href='http://s.w.org/' />
@@ -109,7 +109,7 @@
 				</div>
 				<div class="site-branding">
 					<h1 class="site-title">
-						<a href="index.php" title="otun-remmy-writes" class="has-logo"><label>otun&#8211;remmy&#8211;writes</label></a>
+						<a href="index.php" title="otunwrites" class="has-logo"><label>otun writes</label></a>
 					</h1>
 					<span class="site-description">otunremmy blog</span>
 				</div>
@@ -122,8 +122,6 @@
 							</li>
 							<li id="menu-item-338" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-338"><a href="#">Features</a>
 								<ul class="sub-menu">
-									<li id="menu-item-416" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-416"><a href="otun-remmy-writes.about.html">About</a>
-									</li>
 									<li id="menu-item-428" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-428"><a href="#">Amebo</a>
 										<ul class="sub-menu">
 											<li id="menu-item-430" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-430"><a href="index5fa3.html?page_id=422&amp;ha=2">Education</a>
@@ -138,11 +136,9 @@
 											</li>
 										</ul>
 									</li>
-									<li id="menu-item-743" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-743"><a href="index96fc.html?forum=forum">Otun-remmy Forum</a>
-									</li>
 								</ul>
 							</li>
-							<li id="menu-item-234" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item menu-item-has-children current_page_item menu-item-233"><a href="otun-remmy-writes.health.php">Health</a>
+							<li id="menu-item-234" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item menu-item-has-children current_page_item menu-item-233"><a href="otunwrites.health.php">Health</a>
 								<ul class="sub-menu">
 									<li id="menu-item-234" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-234"><a href="index0c2d.html?page_id=231">cat 1</a></li>
 									<li id="menu-item-237" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-237"><a href="index79e3.html?page_id=235">cat 2</a></li>
@@ -150,96 +146,22 @@
 									<li id="menu-item-243" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-243"><a href="index4180.html?page_id=241">cat 4</a></li>
 								</ul>
 							</li>
-							<li id="menu-item-233" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-233 page_item page-item-207 menu-item-211"><a href="otun-remmy-writes.poem.php">Poems</a>
+							<li id="menu-item-233" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-233 page_item page-item-207 menu-item-211"><a href="otunwrites.poem.php">Poems</a>
 								<ul class="sub-menu">
-									<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-243"><a href="otun-remmy-writes.post.php?cat=poem&subcat=End Time">End Time</a></li>
-									<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-237"><a href="otun-remmy-writes.post.php?cat=poem&subcat=Grace">Grace</a></li>
-									<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-240"><a href="otun-remmy-writes.post.php?cat=poem&subcat=Sacred">Sacred</a></li>
-									<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-243"><a href="otun-remmy-writes.post.php?cat=poem&subcat=Special">Special</a></li>
+									<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-243"><a href="otunwrites.post.php?cat=poem&subcat=End Time">End Time</a></li>
+									<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-237"><a href="otunwrites.post.php?cat=poem&subcat=Grace">Grace</a></li>
+									<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-240"><a href="otunwrites.post.php?cat=poem&subcat=Sacred">Sacred</a></li>
+									<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-243"><a href="otunwrites.post.php?cat=poem&subcat=Special">Special</a></li>
 								</ul>
 							</li>
-							<li id="menu-item-212" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-212 vce-mega-cat vce-cat-2"><a href="index3f7b.html?cat=2" data-mega_cat_id="2">Food</a>
-								<ul class="vce-mega-menu-wrapper">
-									<li class="vce-mega-menu-posts-wrap " data-numposts="5">
-										<ul>
-											<li>
-												<a class="mega-menu-img" href="#" title="">
-													<img width="375" height="195" src="" class="attachment-vce-lay-b size-vce-lay-b wp-post-image" alt="" />
-												</a>
-												<a class="mega-menu-link" href="#" title=""></a>
-											</li>
-											<li>
-												<a class="mega-menu-img" href="#" title="">
-													<img width="375" height="195" src="" class="attachment-vce-lay-b size-vce-lay-b wp-post-image" alt="" />
-												</a>
-												<a class="mega-menu-link" href="#" title=""></a>
-											</li>
-											<li>
-												<a class="mega-menu-img" href="#" title="">
-													<img width="375" height="195" src="" class="attachment-vce-lay-b size-vce-lay-b wp-post-image" alt="" />
-												</a>
-												<a class="mega-menu-link" href="#" title=""></a>
-											</li>
-											<li>
-												<a class="mega-menu-img" href="#" title="">
-													<img width="375" height="195" src="" class="attachment-vce-lay-b size-vce-lay-b wp-post-image" alt="" />
-												</a>
-												<a class="mega-menu-link" href="#" title=""></a>
-											</li>
-											<li>
-												<a class="mega-menu-img" href="#" title="">
-													<img width="375" height="195" src="" class="attachment-vce-lay-b size-vce-lay-b wp-post-image" alt="" />
-												</a>
-												<a class="mega-menu-link" href="#" title=""></a>
-											</li>
-										</ul>
-									</li>
-								</ul>
-							</li>
-							<li id="menu-item-213" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-213 vce-mega-cat vce-cat-4"><a href="indexaa1e.html?cat=4" data-mega_cat_id="4">Fashion</a>
-								<ul class="vce-mega-menu-wrapper">
-									<li class="vce-mega-menu-posts-wrap " data-numposts="5">
-										<ul>
-											<li>
-												<a class="mega-menu-img" href="#" title="">
-													<img width="375" height="195" src="" class="attachment-vce-lay-b size-vce-lay-b wp-post-image" alt="" />
-												</a>
-												<a class="mega-menu-link" href="#" title=""></a>
-											</li>
-											<li>
-												<a class="mega-menu-img" href="#" title="">
-													<img width="375" height="195" src="" class="attachment-vce-lay-b size-vce-lay-b wp-post-image" alt="" />
-												</a>
-												<a class="mega-menu-link" href="#" title=""></a>
-											</li>
-											<li>
-												<a class="mega-menu-img" href="#" title="">
-													<img width="375" height="195" src="" class="attachment-vce-lay-b size-vce-lay-b wp-post-image" alt="" />
-												</a>
-												<a class="mega-menu-link" href="#" title=""></a>
-											</li>
-											<li>
-												<a class="mega-menu-img" href="#" title="">
-													<img width="375" height="195" src="" class="attachment-vce-lay-b size-vce-lay-b wp-post-image" alt="" />
-												</a>
-												<a class="mega-menu-link" href="#" title=""></a>
-											</li>
-											<li>
-												<a class="mega-menu-img" href="#" title="">
-													<img width="375" height="195" src="" class="attachment-vce-lay-b size-vce-lay-b wp-post-image" alt="" />
-												</a>
-												<a class="mega-menu-link" href="#" title=""></a>
-											</li>
-										</ul>
-									</li>
-								</ul>
-							</li>
+							<li id="menu-item-212"><a href="otunwrites.inspirational.php">Inspirational</a></li>
+							<li id="menu-item-212"><a href="otunwrites.about.php">About</a></li>
 							<li id="menu-item-296" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-296"><a href="contact.inc.php">Contact</a>
 							</li>
 							<li class="search-header-wrap"><a class="search_header" href="javascript:void(0)"><i class="fa fa-search"></i></a>
 								<ul class="search-header-form-ul">
 									<li>
-										<form class="search-header-form" action="otun-remmy-writes.searchresult.php" method="post">
+										<form class="search-header-form" action="otunwrites.searchresult.php" method="post">
 											<input type="hidden" name="todo" value="search">
 											<input name="search_text" class="search-input" size="20" type="text" value="Type here to search..." onfocus="(this.value == 'Type here to search...') && (this.value = '')" onblur="(this.value == '') && (this.value = 'Type here to search...')" placeholder="Type here to search..." />
 										</form>
