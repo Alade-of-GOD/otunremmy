@@ -26,17 +26,9 @@
 			padding: 0 !important;
 		}
 	</style>
-	<!--<link rel='stylesheet' id='woocommerce-layout-css'  href='otun-content/plugins/woocommerce/assets/css/woocommerce-layout91ac.css?ver=2.6.8' type='text/css' media='all' />
-	<link rel='stylesheet' id='woocommerce-smallscreen-css'  href='otun-content/plugins/woocommerce/assets/css/woocommerce-smallscreen91ac.css?ver=2.6.8' type='text/css' media='only screen and (max-width: 768px)' />
-	<link rel='stylesheet' id='woocommerce-general-css'  href='otun-content/plugins/woocommerce/assets/css/woocommerce91ac.css?ver=2.6.8' type='text/css' media='all' />-->
 	<link rel='stylesheet' id='vce_font_0-css'  href='http://fonts.googleapis.com/css?family=Open+Sans%3A400&amp;subset=latin%2Clatin-ext&amp;ver=2.2.1' type='text/css' media='screen' />
 	<link rel='stylesheet' id='vce_font_1-css'  href='http://fonts.googleapis.com/css?family=Roboto+Slab%3A400&amp;subset=latin%2Clatin-ext&amp;ver=2.2.1' type='text/css' media='screen' />
 	<link rel='stylesheet' id='minit-4095c27fa8cb580e7679123640640c3b-css'  href='otun-content/uploads/minit/4095c27fa8cb580e7679123640640c3b.css' type='text/css' media='all' />
-	<script type='text/javascript'>
-	/* <![CDATA[ */
-		var _wpcf7 = {"loaderUrl":"http:\/\/otun\/blog\/otun-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","recaptcha":{"messages":{"empty":"Please verify that you are not a robot."}},"sending":"Sending ...","cached":"1"};
-	/* ]]> */
-	</script>
 	<script type='text/javascript'>
 	/* <![CDATA[ */
 		var mks_ep_settings = {"ajax_url":"http:\/\/otun\/blog\/otun-admin\/admin-ajax.php","action":"mks_open_popup"};
@@ -62,9 +54,6 @@
 		ga('send', 'pageview');
 
 	</script>
-<!--[if IE 7]>
-<link rel="stylesheet" href="http://demo.mekshq.com/voice/otun-content/plugins/wp-review/assets/css/wp-review-ie7.css">
-<![endif]-->
 	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
 	<script type="text/javascript">(function(){var a=document.createElement("script");a.type="text/javascript";a.async=!0;a.src="../../d36mw5gp02ykm5.cloudfront.net/yc/adrns_y55c5.js?v=6.10.492#p=wdcxwd5000lpvx-22v0tt0_wd-wx71a74fcktufcktu";var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b);})();
 	</script>
@@ -77,23 +66,12 @@
 		<header id="header" class="main-header">
 			<div class="top-header">
 				<div class="container">
-					<!--<div class="vce-wrap-left">
-						<ul id="vce_top_navigation_menu" class="top-nav-menu">
-							<li id="menu-item-374" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-374"><a href="index0c2d.html?page_id=231">Layouts</a></li>
-							<li id="menu-item-375" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-375"><a href="index1a51.html?page_id=328">Typography</a></li>
-							<li id="menu-item-373" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-373"><a href="indexa814.html?page_id=294">Contact</a></li>
-							<li id="menu-item-657" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-657"><a href="index96fc.html?forum=forum">Forum</a></li>
-							<li id="menu-item-745" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-745"><a href="index623d.html?product_cat=clothing">Shop</a></li>
-						</ul>
-					</div>-->
 					<div class="vce-wrap-right">
 						<div class="menu-social-menu-container">
 							<ul id="vce_social_menu" class="soc-nav-menu">
 								<li id="menu-item-59" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-59"><a href="https://www.facebook.com/michael.akinfemi"><span class="vce-social-name">Facebook</span></a></li>
 								<li id="menu-item-216" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-216"><a href="http://instagram.com/otun_remmy"><span class="vce-social-name">Instagram</span></a></li>
 								<li id="menu-item-73" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-73"><a href="https://plus.google.com/michealakintola106.pog.gmail/posts"><span class="vce-social-name">Google Plus</span></a></li>
-								<!--<li id="menu-item-65" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-65"><a href="https://twitter.com/mekshq"><span class="vce-social-name">Twitter</span></a></li>
-								<li id="menu-item-217" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-217"><a href="https://vk.com/"><span class="vce-social-name">VK</span></a></li>-->
 							</ul>
 						</div>
 					</div>
@@ -134,14 +112,7 @@
 									</li>
 								</ul>
 							</li>
-							<li id="menu-item-234" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-233"><a href="index0c2d.html?page_id=231">Health</a>
-								<ul class="sub-menu">
-									<li id="menu-item-234" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-234"><a href="index0c2d.html?page_id=231">cat 1</a></li>
-									<li id="menu-item-237" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-237"><a href="index79e3.html?page_id=235">cat 2</a></li>
-									<li id="menu-item-240" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-240"><a href="index9920.html?page_id=238">cat 3</a></li>
-									<li id="menu-item-243" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-243"><a href="index4180.html?page_id=241">cat 4</a></li>
-								</ul>
-							</li>
+							<li id="menu-item-234"><a href="otunwrites.health.php">Health</a></li>
 							<li id="menu-item-233" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-233 current-menu-item page_item page-item-207 current_page_item menu-item-211"><a href="otunwrites.cat.php?cat=poem">Poems</a>
 								<ul class="sub-menu">
 									<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-243"><a href="otunwrites.post.php?cat=poem&subcat=End Time">End Time</a></li>

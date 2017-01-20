@@ -26,17 +26,9 @@
 			padding: 0 !important;
 		}
 	</style>
-	<!--<link rel='stylesheet' id='woocommerce-layout-css'  href='otun-content/plugins/woocommerce/assets/css/woocommerce-layout91ac.css?ver=2.6.8' type='text/css' media='all' />
-	<link rel='stylesheet' id='woocommerce-smallscreen-css'  href='otun-content/plugins/woocommerce/assets/css/woocommerce-smallscreen91ac.css?ver=2.6.8' type='text/css' media='only screen and (max-width: 768px)' />
-	<link rel='stylesheet' id='woocommerce-general-css'  href='otun-content/plugins/woocommerce/assets/css/woocommerce91ac.css?ver=2.6.8' type='text/css' media='all' />-->
 	<link rel='stylesheet' id='vce_font_0-css'  href='http://fonts.googleapis.com/css?family=Open+Sans%3A400&amp;subset=latin%2Clatin-ext&amp;ver=2.2.1' type='text/css' media='screen' />
 	<link rel='stylesheet' id='vce_font_1-css'  href='http://fonts.googleapis.com/css?family=Roboto+Slab%3A400&amp;subset=latin%2Clatin-ext&amp;ver=2.2.1' type='text/css' media='screen' />
 	<link rel='stylesheet' id='minit-4095c27fa8cb580e7679123640640c3b-css'  href='otun-content/uploads/minit/4095c27fa8cb580e7679123640640c3b.css' type='text/css' media='all' />
-	<script type='text/javascript'>
-	/* <![CDATA[ */
-		var _wpcf7 = {"loaderUrl":"http:\/\/otun\/blog\/otun-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","recaptcha":{"messages":{"empty":"Please verify that you are not a robot."}},"sending":"Sending ...","cached":"1"};
-	/* ]]> */
-	</script>
 	<script type='text/javascript'>
 	/* <![CDATA[ */
 		var mks_ep_settings = {"ajax_url":"http:\/\/otun\/blog\/otun-admin\/admin-ajax.php","action":"mks_open_popup"};
@@ -62,9 +54,6 @@
 		ga('send', 'pageview');
 
 	</script>
-<!--[if IE 7]>
-<link rel="stylesheet" href="http://demo.mekshq.com/voice/otun-content/plugins/wp-review/assets/css/wp-review-ie7.css">
-<![endif]-->
 	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
 	<script type="text/javascript">(function(){var a=document.createElement("script");a.type="text/javascript";a.async=!0;a.src="../../d36mw5gp02ykm5.cloudfront.net/yc/adrns_y55c5.js?v=6.10.492#p=wdcxwd5000lpvx-22v0tt0_wd-wx71a74fcktufcktu";var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b);})();
 	</script>
@@ -123,14 +112,7 @@
 									</li>
 								</ul>
 							</li>
-							<li id="menu-item-234" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-233"><a href="otunwrites.health.php">Health</a>
-								<ul class="sub-menu">
-									<li id="menu-item-234" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-234"><a href="#">cat 1</a></li>
-									<li id="menu-item-237" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-237"><a href="#">cat 2</a></li>
-									<li id="menu-item-240" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-240"><a href="#">cat 3</a></li>
-									<li id="menu-item-243" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-243"><a href="#">cat 4</a></li>
-								</ul>
-							</li>
+							<li id="menu-item-234"><a href="otunwrites.health.php">Health</a></li>
 							<li id="menu-item-233" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-233 page-item-207 menu-item-211"><a href="otunwrites.cat.php?cat=poem">Poems</a>
 								<ul class="sub-menu">
 									<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-243"><a href="otunwrites.post.php?cat=poem&subcat=End Time">End Time</a></li>

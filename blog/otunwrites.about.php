@@ -1,7 +1,4 @@
 <!DOCTYPE html>
-<!--[if IE 8]><html class="ie8"><![endif]-->
-<!--[if IE 9]><html class="ie9"><![endif]-->
-<!--[if gt IE 8]><!-->
 <html lang="en-US"> <!--<![endif]-->
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
@@ -28,9 +25,6 @@
 			padding: 0 !important;
 		}
 	</style>
-	<!--<link rel='stylesheet' id='woocommerce-layout-css'  href='otun-content/plugins/woocommerce/assets/css/woocommerce-layout91ac.css?ver=2.6.8' type='text/css' media='all' />
-	<link rel='stylesheet' id='woocommerce-smallscreen-css'  href='otun-content/plugins/woocommerce/assets/css/woocommerce-smallscreen91ac.css?ver=2.6.8' type='text/css' media='only screen and (max-width: 768px)' />
-	<link rel='stylesheet' id='woocommerce-general-css'  href='otun-content/plugins/woocommerce/assets/css/woocommerce91ac.css?ver=2.6.8' type='text/css' media='all' />-->
 	<link rel='stylesheet' id='vce_font_0-css'  href='http://fonts.googleapis.com/css?family=Open+Sans%3A400&amp;subset=latin%2Clatin-ext&amp;ver=2.2.1' type='text/css' media='screen' />
 	<link rel='stylesheet' id='vce_font_1-css'  href='http://fonts.googleapis.com/css?family=Roboto+Slab%3A400&amp;subset=latin%2Clatin-ext&amp;ver=2.2.1' type='text/css' media='screen' />
 	<link rel='stylesheet' id='minit-4095c27fa8cb580e7679123640640c3b-css'  href='otun-content/uploads/minit/4095c27fa8cb580e7679123640640c3b.css' type='text/css' media='all' />
@@ -116,14 +110,7 @@
 									</li>
 								</ul>
 							</li>
-							<li id="menu-item-234" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-233"><a href="otunwrites.health.php">Health</a>
-								<ul class="sub-menu">
-									<li id="menu-item-234" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-234"><a href="index0c2d.html?page_id=231">cat 1</a></li>
-									<li id="menu-item-237" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-237"><a href="index79e3.html?page_id=235">cat 2</a></li>
-									<li id="menu-item-240" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-240"><a href="index9920.html?page_id=238">cat 3</a></li>
-									<li id="menu-item-243" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-243"><a href="index4180.html?page_id=241">cat 4</a></li>
-								</ul>
-							</li>
+							<li id="menu-item-234"><a href="otunwrites.health.php">Health</a></li>
 							<li id="menu-item-233" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-233 page_item page-item-207 menu-item-211"><a href="otunwrites.poem.php">Poems</a>
 								<ul class="sub-menu">
 									<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-243"><a href="otunwrites.post.php?cat=poem&subcat=End Time">End Time</a></li>
