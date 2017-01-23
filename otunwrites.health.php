@@ -102,13 +102,13 @@
 								<ul class="sub-menu">
 									<li id="menu-item-428" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-428"><a href="#">Amebo</a>
 										<ul class="sub-menu">
-											<li id="menu-item-430" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-430"><a href="otunwrites.post.php?cat=ameb&subcat=Education">Education</a>
+											<li id="menu-item-430" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-430"><a href="otunwrites.post.php?cat=Education">Education</a>
 											</li>
-											<li id="menu-item-430" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-430"><a href="otunwrites.post.php?cat=ameb&subcat=Latest Discoveries">Latest Discoveries</a>
+											<li id="menu-item-430" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-430"><a href="otunwrites.post.php?cat=Latest Discoveries">Latest Discoveries</a>
 											</li>
-											<li id="menu-item-430" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-430"><a href="otunwrites.post.php?cat=ameb&subcat=Nigeria">Nigeria</a>
+											<li id="menu-item-430" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-430"><a href="otunwrites.post.php?cat=Nigeria">Nigeria</a>
 											</li>
-											<li id="menu-item-430" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-430"><a href="otunwrites.post.php?cat=ameb&subcat=Science and Technology">Science and Technology</a>
+											<li id="menu-item-430" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-430"><a href="otunwrites.post.php?cat=Science and Technology">Science and Technology</a>
 											</li>
 										</ul>
 									</li>
@@ -117,10 +117,10 @@
 							<li id="menu-item-234" class="menu-item-object-page current-menu-item"><a href="otunwrites.health.php">Health</a></li>
 							<li id="menu-item-233" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-233 page_item page-item-207 menu-item-211"><a href="otunwrites.poem.php">Poems</a>
 								<ul class="sub-menu">
-									<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-243"><a href="otunwrites.post.php?cat=poem&subcat=End Time">End Time</a></li>
-									<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-237"><a href="otunwrites.post.php?cat=poem&subcat=Grace">Grace</a></li>
-									<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-240"><a href="otunwrites.post.php?cat=poem&subcat=Sacred">Sacred</a></li>
-									<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-243"><a href="otunwrites.post.php?cat=poem&subcat=Special">Special</a></li>
+									<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-243"><a href="otunwrites.post.php?cat=End Time">End Time</a></li>
+									<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-237"><a href="otunwrites.post.php?cat=Grace">Grace</a></li>
+									<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-240"><a href="otunwrites.post.php?cat=Sacred">Sacred</a></li>
+									<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-243"><a href="otunwrites.post.php?cat=Special">Special</a></li>
 								</ul>
 							</li>
 							<li id="menu-item-212"><a href="otunwrites.inspirational.php">Inspirational</a></li>
@@ -159,71 +159,7 @@
 					</div>
 				</div>
 				<aside id="sidebar" class="sidebar right">
-					<div id="vce_posts_widget-9" class="widget vce_posts_widget">
-						<h4 class="widget-title"><span>Featured Posts</span></h4>
-						<ul class="vce-post-list" data-autoplay="">
-	 						<li>
-					 			<a href="indexc39e.html?p=203" class="featured_image_sidebar" title="Solar Energy for Mother Earth and Everyday Smiles">
-					 				<span class="vce-post-img">
-					 					<img width="145" height="100" src="otun-content/uploads/2014/11/unsplash_52bf2bb8d2dd0_1-1-145x100.jpg" class="attachment-vce-lay-d size-vce-lay-d wp-post-image" alt="unsplash_52bf2bb8d2dd0_1 (1)" srcset="http://demo.mekshq.com/voice/otun-content/uploads/2014/11/unsplash_52bf2bb8d2dd0_1-1-145x100.jpg 145w, http://demo.mekshq.com/voice/otun-content/uploads/2014/11/unsplash_52bf2bb8d2dd0_1-1-380x260.jpg 380w" sizes="(max-width: 145px) 100vw, 145px" />
-					 				</span>
-					 			</a>
-	 							<div class="vce-posts-wrap">
-	 					 			<a href="indexc39e.html?p=203" title="Solar Energy for Mother Earth and Everyday Smiles" class="vce-post-link">Solar Energy for Mother Earth and Everyday Smiles</a>
-		 					 	</div>
-							</li>
-							<li>
-					 			<a href="indexc39e.html?p=203" class="featured_image_sidebar" title="Solar Energy for Mother Earth and Everyday Smiles">
-					 				<span class="vce-post-img">
-					 					<img width="145" height="100" src="otun-content/uploads/2014/11/unsplash_52bf2bb8d2dd0_1-1-145x100.jpg" class="attachment-vce-lay-d size-vce-lay-d wp-post-image" alt="unsplash_52bf2bb8d2dd0_1 (1)" srcset="http://demo.mekshq.com/voice/otun-content/uploads/2014/11/unsplash_52bf2bb8d2dd0_1-1-145x100.jpg 145w, http://demo.mekshq.com/voice/otun-content/uploads/2014/11/unsplash_52bf2bb8d2dd0_1-1-380x260.jpg 380w" sizes="(max-width: 145px) 100vw, 145px" />
-					 				</span>
-					 			</a>
-	 							<div class="vce-posts-wrap">
-	 					 			<a href="indexc39e.html?p=203" title="Solar Energy for Mother Earth and Everyday Smiles" class="vce-post-link">Solar Energy for Mother Earth and Everyday Smiles</a>
-		 					 	</div>
-							</li>
-							<li>
-					 			<a href="indexc39e.html?p=203" class="featured_image_sidebar" title="Solar Energy for Mother Earth and Everyday Smiles">
-					 				<span class="vce-post-img">
-					 					<img width="145" height="100" src="otun-content/uploads/2014/11/unsplash_52bf2bb8d2dd0_1-1-145x100.jpg" class="attachment-vce-lay-d size-vce-lay-d wp-post-image" alt="unsplash_52bf2bb8d2dd0_1 (1)" srcset="http://demo.mekshq.com/voice/otun-content/uploads/2014/11/unsplash_52bf2bb8d2dd0_1-1-145x100.jpg 145w, http://demo.mekshq.com/voice/otun-content/uploads/2014/11/unsplash_52bf2bb8d2dd0_1-1-380x260.jpg 380w" sizes="(max-width: 145px) 100vw, 145px" />
-					 				</span>
-					 			</a>
-	 							<div class="vce-posts-wrap">
-	 					 			<a href="indexc39e.html?p=203" title="Solar Energy for Mother Earth and Everyday Smiles" class="vce-post-link">Solar Energy for Mother Earth and Everyday Smiles</a>
-		 					 	</div>
-							</li>
-							<li>
-					 			<a href="indexc39e.html?p=203" class="featured_image_sidebar" title="Solar Energy for Mother Earth and Everyday Smiles">
-					 				<span class="vce-post-img">
-					 					<img width="145" height="100" src="otun-content/uploads/2014/11/unsplash_52bf2bb8d2dd0_1-1-145x100.jpg" class="attachment-vce-lay-d size-vce-lay-d wp-post-image" alt="unsplash_52bf2bb8d2dd0_1 (1)" srcset="http://demo.mekshq.com/voice/otun-content/uploads/2014/11/unsplash_52bf2bb8d2dd0_1-1-145x100.jpg 145w, http://demo.mekshq.com/voice/otun-content/uploads/2014/11/unsplash_52bf2bb8d2dd0_1-1-380x260.jpg 380w" sizes="(max-width: 145px) 100vw, 145px" />
-					 				</span>
-					 			</a>
-	 							<div class="vce-posts-wrap">
-	 					 			<a href="indexc39e.html?p=203" title="Solar Energy for Mother Earth and Everyday Smiles" class="vce-post-link">Solar Energy for Mother Earth and Everyday Smiles</a>
-		 					 	</div>
-							</li>
-							<li>
-					 			<a href="indexc39e.html?p=203" class="featured_image_sidebar" title="Solar Energy for Mother Earth and Everyday Smiles">
-					 				<span class="vce-post-img">
-					 					<img width="145" height="100" src="otun-content/uploads/2014/11/unsplash_52bf2bb8d2dd0_1-1-145x100.jpg" class="attachment-vce-lay-d size-vce-lay-d wp-post-image" alt="unsplash_52bf2bb8d2dd0_1 (1)" srcset="http://demo.mekshq.com/voice/otun-content/uploads/2014/11/unsplash_52bf2bb8d2dd0_1-1-145x100.jpg 145w, http://demo.mekshq.com/voice/otun-content/uploads/2014/11/unsplash_52bf2bb8d2dd0_1-1-380x260.jpg 380w" sizes="(max-width: 145px) 100vw, 145px" />
-					 				</span>
-					 			</a>
-	 							<div class="vce-posts-wrap">
-	 					 			<a href="indexc39e.html?p=203" title="Solar Energy for Mother Earth and Everyday Smiles" class="vce-post-link">Solar Energy for Mother Earth and Everyday Smiles</a>
-		 					 	</div>
-							</li>
-							<li>
-					 			<a href="indexc39e.html?p=203" class="featured_image_sidebar" title="Solar Energy for Mother Earth and Everyday Smiles">
-					 				<span class="vce-post-img">
-					 					<img width="145" height="100" src="otun-content/uploads/2014/11/unsplash_52bf2bb8d2dd0_1-1-145x100.jpg" class="attachment-vce-lay-d size-vce-lay-d wp-post-image" alt="unsplash_52bf2bb8d2dd0_1 (1)" srcset="http://demo.mekshq.com/voice/otun-content/uploads/2014/11/unsplash_52bf2bb8d2dd0_1-1-145x100.jpg 145w, http://demo.mekshq.com/voice/otun-content/uploads/2014/11/unsplash_52bf2bb8d2dd0_1-1-380x260.jpg 380w" sizes="(max-width: 145px) 100vw, 145px" />
-					 				</span>
-					 			</a>
-	 							<div class="vce-posts-wrap">
-	 					 			<a href="indexc39e.html?p=203" title="Solar Energy for Mother Earth and Everyday Smiles" class="vce-post-link">Solar Energy for Mother Earth and Everyday Smiles</a>
-		 					 	</div>
-							</li>
-					  	</ul>
-					</div>
+					<?php include ("advert.php") ?>
 				</aside>
 			</div>
 			<div class="main-box-inside ">

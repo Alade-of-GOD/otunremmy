@@ -7,19 +7,7 @@
             && isset($_POST['category']) && !empty($_POST['category']) && isset($_POST['postcontent']) && !empty($_POST['postcontent']) ){
 
         $posttitle = $_POST['posttitle'];
-        $category = "";
-        if ($_POST['category'] == "Poem End Time" || $_POST['category'] == "Poem Grace" || $_POST['category'] == "Poem Sacred" || $_POST['category'] == "Poem Special") {
-            $category = "poem";
-        }
-        else if ($_POST['category'] == "Amebo Education" || $_POST['category'] == "Amebo Latest Discoveries" || $_POST['category'] == "Amebo Nigeria" || $_POST['category'] == "Amebo Science and Technology"){
-            $category = "ameb";
-        }
-
-        else {
-            $category = $_POST['category'];
-        }
-
-        $postcategory = $_POST['category'];
+        $category = $_POST['category'];
         $postcontent = nl2br($_POST['postcontent']);
         $date = date("Y-m-d");
     	$time = date("d/m/Y");
@@ -27,8 +15,8 @@
         $feauturedimage = ($_FILES['feauturedimage']['name']);
         //echo $feauturedimage;
 
-        $insert = "INSERT INTO `otun_posts` (titleofpost, contentofpost, imageofpost, category, categoryofpost, authorofpost, numberofcomments, numberoflikes, viewsofpost, dateofpost, timeofpost)
-        VALUES ('".mysqli_real_escape_string($db, $posttitle)."', '".mysqli_real_escape_string($db, $postcontent)."', '".mysqli_real_escape_string($db, $feauturedimage)."', '".mysqli_real_escape_string($db, $category)."', '".mysqli_real_escape_string($db, $postcategory)."', '".mysqli_real_escape_string($db, $fName)."', '0', '0', '0', '$date', '$time')";
+        $insert = "INSERT INTO `otun_posts` (titleofpost, contentofpost, imageofpost, category, authorofpost, numberofcomments, numberoflikes, viewsofpost, dateofpost, timeofpost)
+        VALUES ('".mysqli_real_escape_string($db, $posttitle)."', '".mysqli_real_escape_string($db, $postcontent)."', '".mysqli_real_escape_string($db, $feauturedimage)."', '".mysqli_real_escape_string($db, $category)."', '".mysqli_real_escape_string($db, $fName)."', '0', '0', '0', '$date', '$time')";
         if(!$res = $db->query($insert)){
             die('There was an error running the query [' . $db->error . ']');
         }

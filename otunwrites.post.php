@@ -98,20 +98,20 @@
 								<ul class="sub-menu">
 									<li id="menu-item-428" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-428"><a href="#">Amebo</a>
 										<ul class="sub-menu">
-											<li id="menu-item-430" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-430"><a href="otunwrites.post.php?cat=ameb&subcat=Education">Education</a>
+											<li id="menu-item-430" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-430"><a href="otunwrites.post.php?cat=Education">Education</a>
 											</li>
-											<li id="menu-item-430" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-430"><a href="otunwrites.post.php?cat=ameb&subcat=Latest Discoveries">Latest Discoveries</a>
+											<li id="menu-item-430" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-430"><a href="otunwrites.post.php?cat=Latest Discoveries">Latest Discoveries</a>
 											</li>
-											<li id="menu-item-430" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-430"><a href="otunwrites.post.php?cat=ameb&subcat=Nigeria">Nigeria</a>
+											<li id="menu-item-430" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-430"><a href="otunwrites.post.php?cat=Nigeria">Nigeria</a>
 											</li>
-											<li id="menu-item-430" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-430"><a href="otunwrites.post.php?cat=ameb&subcat=Science and Technology">Science and Technology</a>
+											<li id="menu-item-430" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-430"><a href="otunwrites.post.php?cat=Science and Technology">Science and Technology</a>
 											</li>
 										</ul>
 									</li>
 								</ul>
 							</li>
 							<li id="menu-item-234"><a href="otunwrites.health.php">Health</a></li>
-							<li id="menu-item-233" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-233 page_item page-item-207 menu-item-211"><a href="otunwrites.poem.php?cat=poem">Poems</a>
+							<li id="menu-item-233" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-233 page_item page-item-207 menu-item-211"><a href="otunwrites.poem.php">Poems</a>
 								<ul class="sub-menu">
 									<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-243"><a href="otunwrites.post.php?cat=End Time">End Time</a></li>
 									<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-237"><a href="otunwrites.post.php?cat=Grace">Grace</a></li>
