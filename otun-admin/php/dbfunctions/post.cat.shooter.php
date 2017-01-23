@@ -1,10 +1,8 @@
 <?php
     $cat = $_GET['cat'];
-    $subcat = $_GET['subcat'];
-    $both = $cat.' '.$subcat;
-	require_once ('connect.inc.php');
+    require_once ('connect.inc.php');
 
-	$sqlpost = "SELECT * FROM `otun_posts` WHERE `categoryofpost` = '$both' AND `active` = 1 ORDER BY `dateofpost` DESC LIMIT 0, 10";
+	$sqlpost = "SELECT * FROM `otun_posts` WHERE `category` = '$cat' AND `active` = 1 ORDER BY `dateofpost` DESC LIMIT 0, 10";
 	if(!$result = $db->query($sqlpost)){
         die('There was an error running the query [' . $db->error . ']');
     }
@@ -15,16 +13,12 @@
         $postcontent = nl2br($row['contentofpost']);
         $postimage = $row['imageofpost'];
         $category = strtoupper($row['category']);
-        $postcategory = $row['categoryofpost'];
         $postauthor = $row['authorofpost'];
         $postnumcomment = $row['numberofcomments'];
         $postlikes = $row['numberoflikes'];
         $postview = $row['viewsofpost'];
         $postdate = $row['dateofpost'];
         $posttime = $row['timeofpost'];
-        $arr = explode(' ', trim($postcategory));
-        $cat = $arr[0];
-        $title = substr($postcategory, 5);
         $contentshort = '';
         $contentarr = explode(' ', trim($postcontent));
         for ($i = 0; $i < 20; $i++) {
@@ -42,7 +36,6 @@
                 </a>
             </div>
             <header class="entry-header">
-                <span class="meta-category"><a href="otunwrites.post.php?cat=poem&subcat='.$title.'" class="category-2">'.$title.'</a></span>
                 <h2 class="entry-title">
                     <a href="otunwrites.post.view.php?page_post_id='.$postid.'&currentpage=1">'.$posttitle.'</a>
                 </h2>

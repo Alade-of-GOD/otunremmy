@@ -111,12 +111,12 @@
 								</ul>
 							</li>
 							<li id="menu-item-234"><a href="otunwrites.health.php">Health</a></li>
-							<li id="menu-item-233" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-233 page_item page-item-207 menu-item-211"><a href="otunwrites.cat.php?cat=poem">Poems</a>
+							<li id="menu-item-233" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-233 page_item page-item-207 menu-item-211"><a href="otunwrites.poem.php?cat=poem">Poems</a>
 								<ul class="sub-menu">
-									<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-243"><a href="otunwrites.post.php?cat=poem&subcat=End Time">End Time</a></li>
-									<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-237"><a href="otunwrites.post.php?cat=poem&subcat=Grace">Grace</a></li>
-									<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-240"><a href="otunwrites.post.php?cat=poem&subcat=Sacred">Sacred</a></li>
-									<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-243"><a href="otunwrites.post.php?cat=poem&subcat=Special">Special</a></li>
+									<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-243"><a href="otunwrites.post.php?cat=End Time">End Time</a></li>
+									<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-237"><a href="otunwrites.post.php?cat=Grace">Grace</a></li>
+									<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-240"><a href="otunwrites.post.php?cat=Sacred">Sacred</a></li>
+									<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-243"><a href="otunwrites.post.php?cat=Special">Special</a></li>
 								</ul>
 							</li>
 							<li id="menu-item-212"><a href="otunwrites.inspirational.php">Inspirational</a></li>
@@ -143,7 +143,7 @@
 				<div id="primary" class="vce-main-content">
 					<div class="main-box">
 						<div class="main-box-head">
-							<h1 class="main-box-title" style="color: #cf4d35;"><?php echo strtoupper($_GET['subcat']); ?></h1>
+							<h1 class="main-box-title" style="color: #cf4d35;"><?php echo strtoupper($_GET['cat']); ?></h1>
 						</div>
 						<div class="main-box-inside">
 							<?php

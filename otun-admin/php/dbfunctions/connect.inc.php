@@ -8,5 +8,8 @@
 	if($db->connect_errno > 0){
 		die('Unable to connect to database [' . $db->connect_error . ']');
 	}
-
+	else {
+		//echo "connection created successfully";
+	}
+	//46.16.188.12 [main host];
 ?>

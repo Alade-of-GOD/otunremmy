@@ -1,8 +1,12 @@
 <?php
+    //$host = '46.16.188.12';
+    //$username = 'otunwrit_theuser';
+    //$password = 'PhemmyAlade_of_GOD106';
+    //$database = 'otunwrit_dbofotunwritesotunwritesdbdbofotunwrites';
     $host = 'localhost';
     $username = 'PoG';
     $password = 'phpmyadmin';
-    $database = 'dbofotunremmy';
+    $database = 'otunwrit';
     $db = new mysqli($host, $username, $password, $database);
     if($db->connect_errno > 0){
         die('Unable to connect to database [' . $db->connect_error . ']');
@@ -14,13 +18,12 @@
         contentofpost TEXT NOT NULL,
         imageofpost VARCHAR(500) NOT NULL,
         category VARCHAR(100) NOT NULL,
-        categoryofpost VARCHAR(100) NOT NULL,
         authorofpost VARCHAR(30) NOT NULL,
         numberofcomments INT(11) NOT NULL,
         numberoflikes INT(11) NOT NULL,
         viewsofpost INT(11) NOT NULL,
         dateofpost DATE NOT NULL,
-        timeofpost VARCHAR(10) NOT NULL),
+        timeofpost VARCHAR(10) NOT NULL,
         active INT(1) NOT NULL DEFAULT 1) ";
 
     if ($db->query($sql) === TRUE) {

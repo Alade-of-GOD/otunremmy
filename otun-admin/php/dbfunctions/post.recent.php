@@ -1,5 +1,6 @@
 <?php
     require_once ('connect.inc.php');
+
     $sqlpost = "SELECT * FROM `otun_posts` WHERE `active` = 1 ORDER BY `dateofpost` DESC LIMIT 0, 1";
 	if(!$result = $db->query($sqlpost)){
         die('There was an error running the query [' . $db->error . ']');
@@ -11,16 +12,12 @@
         $postcontent = $row['contentofpost'];
         $postimage = $row['imageofpost'];
         $category = strtoupper($row['category']);
-        $postcategory = $row['categoryofpost'];
         $postauthor = $row['authorofpost'];
         $postnumcomment = $row['numberofcomments'];
         $postlikes = $row['numberoflikes'];
         $postview = $row['viewsofpost'];
         $postdate = $row['dateofpost'];
         $posttime = $row['timeofpost'];
-        $arr = explode(' ', trim($postcategory));
-        $cat = $arr[0];
-        $title = substr($postcategory, 5);
         $contentshort = '';
         $contentarr = explode(' ', trim($postcontent));
         for ($i = 0; $i < 20; $i++) {
@@ -30,7 +27,6 @@
         $date1 = new DateTime($postdate);
         $date2 = new DateTime();
         $diff = date_diff($date2, $date1);
-
         echo '
         <div id="main-box-3" class="main-box vce-border-top main-box-half ">
             <h3 class="main-box-title cat-4">'.$category.'</h3>
@@ -66,19 +62,15 @@
     while($row = $result->fetch_assoc()){
         $postid = $row['idofpost'];
         $posttitle = $row['titleofpost'];
-        $postcontent = nl2br($row['contentofpost']);
+        $postcontent = $row['contentofpost'];
         $postimage = $row['imageofpost'];
         $category = strtoupper($row['category']);
-        $postcategory = $row['categoryofpost'];
         $postauthor = $row['authorofpost'];
         $postnumcomment = $row['numberofcomments'];
         $postlikes = $row['numberoflikes'];
         $postview = $row['viewsofpost'];
         $postdate = $row['dateofpost'];
         $posttime = $row['timeofpost'];
-        $arr = explode(' ', trim($postcategory));
-        $cat = $arr[0];
-        $title = substr($postcategory, 5);
         $contentshort = '';
         $contentarr = explode(' ', trim($postcontent));
         for ($i = 0; $i < 20; $i++) {
@@ -88,7 +80,6 @@
         $date1 = new DateTime($postdate);
         $date2 = new DateTime();
         $diff = date_diff($date2, $date1);
-
         echo '
         <div class="vce-loop-wrap" >
             <article class="vce-post vce-lay-d post-144 post type-post status-publish format-standard has-post-thumbnail hentry category-fashion">
@@ -116,19 +107,15 @@
     while($row = $result->fetch_assoc()){
         $postid = $row['idofpost'];
         $posttitle = $row['titleofpost'];
-        $postcontent = nl2br($row['contentofpost']);
+        $postcontent = $row['contentofpost'];
         $postimage = $row['imageofpost'];
         $category = strtoupper($row['category']);
-        $postcategory = $row['categoryofpost'];
         $postauthor = $row['authorofpost'];
         $postnumcomment = $row['numberofcomments'];
         $postlikes = $row['numberoflikes'];
         $postview = $row['viewsofpost'];
         $postdate = $row['dateofpost'];
         $posttime = $row['timeofpost'];
-        $arr = explode(' ', trim($postcategory));
-        $cat = $arr[0];
-        $title = substr($postcategory, 5);
         $contentshort = '';
         $contentarr = explode(' ', trim($postcontent));
         for ($i = 0; $i < 20; $i++) {
@@ -138,7 +125,6 @@
         $date1 = new DateTime($postdate);
         $date2 = new DateTime();
         $diff = date_diff($date2, $date1);
-
         echo '
             <article class="vce-post vce-lay-d post-144 post type-post status-publish format-standard has-post-thumbnail hentry category-fashion">
                 <div class="meta-image">
@@ -170,16 +156,12 @@
         $postcontent = $row['contentofpost'];
         $postimage = $row['imageofpost'];
         $category = strtoupper($row['category']);
-        $postcategory = $row['categoryofpost'];
         $postauthor = $row['authorofpost'];
         $postnumcomment = $row['numberofcomments'];
         $postlikes = $row['numberoflikes'];
         $postview = $row['viewsofpost'];
         $postdate = $row['dateofpost'];
         $posttime = $row['timeofpost'];
-        $arr = explode(' ', trim($postcategory));
-        $cat = $arr[0];
-        $title = substr($postcategory, 5);
         $contentshort = '';
         $contentarr = explode(' ', trim($postcontent));
         for ($i = 0; $i < 20; $i++) {
@@ -189,7 +171,6 @@
         $date1 = new DateTime($postdate);
         $date2 = new DateTime();
         $diff = date_diff($date2, $date1);
-
         echo '
         <div id="main-box-3" class="main-box vce-border-top main-box-half ">
             <h3 class="main-box-title cat-4">'.$category.'</h3>
@@ -226,19 +207,15 @@
     while($row = $result->fetch_assoc()){
         $postid = $row['idofpost'];
         $posttitle = $row['titleofpost'];
-        $postcontent = nl2br($row['contentofpost']);
+        $postcontent = $row['contentofpost'];
         $postimage = $row['imageofpost'];
         $category = strtoupper($row['category']);
-        $postcategory = $row['categoryofpost'];
         $postauthor = $row['authorofpost'];
         $postnumcomment = $row['numberofcomments'];
         $postlikes = $row['numberoflikes'];
         $postview = $row['viewsofpost'];
         $postdate = $row['dateofpost'];
         $posttime = $row['timeofpost'];
-        $arr = explode(' ', trim($postcategory));
-        $cat = $arr[0];
-        $title = substr($postcategory, 5);
         $contentshort = '';
         $contentarr = explode(' ', trim($postcontent));
         for ($i = 0; $i < 20; $i++) {
@@ -248,7 +225,6 @@
         $date1 = new DateTime($postdate);
         $date2 = new DateTime();
         $diff = date_diff($date2, $date1);
-
         echo '
         <div class="vce-loop-wrap" >
             <article class="vce-post vce-lay-d post-144 post type-post status-publish format-standard has-post-thumbnail hentry category-fashion">
@@ -276,19 +252,15 @@
     while($row = $result->fetch_assoc()){
         $postid = $row['idofpost'];
         $posttitle = $row['titleofpost'];
-        $postcontent = nl2br($row['contentofpost']);
+        $postcontent = $row['contentofpost'];
         $postimage = $row['imageofpost'];
         $category = strtoupper($row['category']);
-        $postcategory = $row['categoryofpost'];
         $postauthor = $row['authorofpost'];
         $postnumcomment = $row['numberofcomments'];
         $postlikes = $row['numberoflikes'];
         $postview = $row['viewsofpost'];
         $postdate = $row['dateofpost'];
         $posttime = $row['timeofpost'];
-        $arr = explode(' ', trim($postcategory));
-        $cat = $arr[0];
-        $title = substr($postcategory, 5);
         $contentshort = '';
         $contentarr = explode(' ', trim($postcontent));
         for ($i = 0; $i < 20; $i++) {
@@ -298,7 +270,6 @@
         $date1 = new DateTime($postdate);
         $date2 = new DateTime();
         $diff = date_diff($date2, $date1);
-
         echo '
             <article class="vce-post vce-lay-d post-144 post type-post status-publish format-standard has-post-thumbnail hentry category-fashion">
                 <div class="meta-image">
@@ -331,16 +302,12 @@
         $postcontent = $row['contentofpost'];
         $postimage = $row['imageofpost'];
         $category = strtoupper($row['category']);
-        $postcategory = $row['categoryofpost'];
         $postauthor = $row['authorofpost'];
         $postnumcomment = $row['numberofcomments'];
         $postlikes = $row['numberoflikes'];
         $postview = $row['viewsofpost'];
         $postdate = $row['dateofpost'];
         $posttime = $row['timeofpost'];
-        $arr = explode(' ', trim($postcategory));
-        $cat = $arr[0];
-        $title = substr($postcategory, 5);
         $contentshort = '';
         $contentarr = explode(' ', trim($postcontent));
         for ($i = 0; $i < 20; $i++) {
@@ -350,7 +317,6 @@
         $date1 = new DateTime($postdate);
         $date2 = new DateTime();
         $diff = date_diff($date2, $date1);
-
         echo '
         <div id="main-box-3" class="main-box vce-border-top main-box-half ">
             <h3 class="main-box-title cat-4">'.$category.'</h3>
@@ -386,19 +352,15 @@
     while($row = $result->fetch_assoc()){
         $postid = $row['idofpost'];
         $posttitle = $row['titleofpost'];
-        $postcontent = nl2br($row['contentofpost']);
+        $postcontent = $row['contentofpost'];
         $postimage = $row['imageofpost'];
         $category = strtoupper($row['category']);
-        $postcategory = $row['categoryofpost'];
         $postauthor = $row['authorofpost'];
         $postnumcomment = $row['numberofcomments'];
         $postlikes = $row['numberoflikes'];
         $postview = $row['viewsofpost'];
         $postdate = $row['dateofpost'];
         $posttime = $row['timeofpost'];
-        $arr = explode(' ', trim($postcategory));
-        $cat = $arr[0];
-        $title = substr($postcategory, 5);
         $contentshort = '';
         $contentarr = explode(' ', trim($postcontent));
         for ($i = 0; $i < 20; $i++) {
@@ -408,7 +370,6 @@
         $date1 = new DateTime($postdate);
         $date2 = new DateTime();
         $diff = date_diff($date2, $date1);
-
         echo '
         <div class="vce-loop-wrap" >
             <article class="vce-post vce-lay-d post-144 post type-post status-publish format-standard has-post-thumbnail hentry category-fashion">
@@ -436,19 +397,15 @@
     while($row = $result->fetch_assoc()){
         $postid = $row['idofpost'];
         $posttitle = $row['titleofpost'];
-        $postcontent = nl2br($row['contentofpost']);
+        $postcontent = $row['contentofpost'];
         $postimage = $row['imageofpost'];
         $category = strtoupper($row['category']);
-        $postcategory = $row['categoryofpost'];
         $postauthor = $row['authorofpost'];
         $postnumcomment = $row['numberofcomments'];
         $postlikes = $row['numberoflikes'];
         $postview = $row['viewsofpost'];
         $postdate = $row['dateofpost'];
         $posttime = $row['timeofpost'];
-        $arr = explode(' ', trim($postcategory));
-        $cat = $arr[0];
-        $title = substr($postcategory, 5);
         $contentshort = '';
         $contentarr = explode(' ', trim($postcontent));
         for ($i = 0; $i < 20; $i++) {
@@ -458,7 +415,6 @@
         $date1 = new DateTime($postdate);
         $date2 = new DateTime();
         $diff = date_diff($date2, $date1);
-
         echo '
             <article class="vce-post vce-lay-d post-144 post type-post status-publish format-standard has-post-thumbnail hentry category-fashion">
                 <div class="meta-image">
@@ -490,16 +446,12 @@
         $postcontent = $row['contentofpost'];
         $postimage = $row['imageofpost'];
         $category = strtoupper($row['category']);
-        $postcategory = $row['categoryofpost'];
         $postauthor = $row['authorofpost'];
         $postnumcomment = $row['numberofcomments'];
         $postlikes = $row['numberoflikes'];
         $postview = $row['viewsofpost'];
         $postdate = $row['dateofpost'];
         $posttime = $row['timeofpost'];
-        $arr = explode(' ', trim($postcategory));
-        $cat = $arr[0];
-        $title = substr($postcategory, 5);
         $contentshort = '';
         $contentarr = explode(' ', trim($postcontent));
         for ($i = 0; $i < 20; $i++) {
@@ -509,7 +461,6 @@
         $date1 = new DateTime($postdate);
         $date2 = new DateTime();
         $diff = date_diff($date2, $date1);
-
         echo '
         <div id="main-box-3" class="main-box vce-border-top main-box-half ">
             <h3 class="main-box-title cat-4">'.$category.'</h3>
@@ -546,19 +497,15 @@
     while($row = $result->fetch_assoc()){
         $postid = $row['idofpost'];
         $posttitle = $row['titleofpost'];
-        $postcontent = nl2br($row['contentofpost']);
+        $postcontent = $row['contentofpost'];
         $postimage = $row['imageofpost'];
         $category = strtoupper($row['category']);
-        $postcategory = $row['categoryofpost'];
         $postauthor = $row['authorofpost'];
         $postnumcomment = $row['numberofcomments'];
         $postlikes = $row['numberoflikes'];
         $postview = $row['viewsofpost'];
         $postdate = $row['dateofpost'];
         $posttime = $row['timeofpost'];
-        $arr = explode(' ', trim($postcategory));
-        $cat = $arr[0];
-        $title = substr($postcategory, 5);
         $contentshort = '';
         $contentarr = explode(' ', trim($postcontent));
         for ($i = 0; $i < 20; $i++) {
@@ -568,7 +515,6 @@
         $date1 = new DateTime($postdate);
         $date2 = new DateTime();
         $diff = date_diff($date2, $date1);
-
         echo '
         <div class="vce-loop-wrap" >
             <article class="vce-post vce-lay-d post-144 post type-post status-publish format-standard has-post-thumbnail hentry category-fashion">
@@ -596,19 +542,15 @@
     while($row = $result->fetch_assoc()){
         $postid = $row['idofpost'];
         $posttitle = $row['titleofpost'];
-        $postcontent = nl2br($row['contentofpost']);
+        $postcontent = $row['contentofpost'];
         $postimage = $row['imageofpost'];
         $category = strtoupper($row['category']);
-        $postcategory = $row['categoryofpost'];
         $postauthor = $row['authorofpost'];
         $postnumcomment = $row['numberofcomments'];
         $postlikes = $row['numberoflikes'];
         $postview = $row['viewsofpost'];
         $postdate = $row['dateofpost'];
         $posttime = $row['timeofpost'];
-        $arr = explode(' ', trim($postcategory));
-        $cat = $arr[0];
-        $title = substr($postcategory, 5);
         $contentshort = '';
         $contentarr = explode(' ', trim($postcontent));
         for ($i = 0; $i < 20; $i++) {
@@ -618,7 +560,6 @@
         $date1 = new DateTime($postdate);
         $date2 = new DateTime();
         $diff = date_diff($date2, $date1);
-
         echo '
             <article class="vce-post vce-lay-d post-144 post type-post status-publish format-standard has-post-thumbnail hentry category-fashion">
                 <div class="meta-image">
