@@ -156,8 +156,8 @@
 						<article id="post-191" class="vce-single post-191 post type-post status-publish format-standard has-post-thumbnail hentry category-food tag-chocolates tag-food-2 tag-magazine tag-sugar tag-sweet">
 							<header class="entry-header">
 								<span class="meta-category">
-									<a href="index3f7b.html?cat=2" class="category-2"><?php echo $cat; ?></a> &#8211;
-									<a href="index3f7b.html?cat=2" class="category-2"><?php echo $title; ?></a>
+									<a href="#" class="category-2"><?php echo $category; ?></a> &#8211;
+									<a href="#" class="category-2"><?php echo $posttitle; ?></a>
 								</span>
 								<h1 class="entry-title"><?php echo $posttitle; ?></h1>
 								<div class="entry-meta">

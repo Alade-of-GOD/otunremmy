@@ -12,7 +12,7 @@
         $posttitle = $row['titleofpost'];
         $postcontent = nl2br($row['contentofpost']);
         $postimage = $row['imageofpost'];
-        $postcategory = $row['categoryofpost'];
+        $category = $row['category'];
         $postauthor = $row['authorofpost'];
         $postnumcomment = $row['numberofcomments'];
         $postlikes = $row['numberoflikes'];
@@ -21,9 +21,6 @@
         $posttime = $row['timeofpost'];
     }
 
-    $arr = explode(' ', trim($postcategory));
-    $cat = $arr[0];
-    $title = substr($postcategory, 5);
     $date1 = new DateTime($postdate);
     $date2 = new DateTime();
     $diff = date_diff($date2, $date1);
