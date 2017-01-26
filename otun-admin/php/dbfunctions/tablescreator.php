@@ -22,7 +22,7 @@
         numberofcomments INT(11) NOT NULL,
         numberoflikes INT(11) NOT NULL,
         viewsofpost INT(11) NOT NULL,
-        dateofpost DATE NOT NULL,
+        dateofpost VARCHAR(10) NOT NULL,
         timeofpost VARCHAR(10) NOT NULL,
         active INT(1) NOT NULL DEFAULT 1) ";
 

@@ -15,7 +15,7 @@
         $postnumcomment = $row['numberofcomments'];
         $postlikes = $row['numberoflikes'];
         $postview = $row['viewsofpost'];
-        $postdate = $row['dateofpost'];
+        //$postdate = date("d/m/Y", strtotime($row['dateofpost']));
         $posttime = $row['timeofpost'];
         $contentshort = '';
         $contentarr = explode(' ', trim($postcontent));
@@ -23,9 +23,9 @@
             $contentshort = $contentshort .' '. $contentarr[$i];
         }
         $contentshort = $contentshort.'...';
-        $date1 = new DateTime($postdate);
-        $date2 = new DateTime();
-        $diff = date_diff($date2, $date1);
+        //$date1 = new DateTime($postdate);
+        //$date2 = new DateTime();
+        //$diff = date_diff($date2, $date1);
         echo '
             <div class="vce-grid-item">
                 <div class="vce-grid-text">
@@ -36,7 +36,6 @@
                         <h2 class="vce-featured-title">
                             <a class="vce-featured-link-article" href="otunwrites.post.view.php?page_post_id='.$postid.'&currentpage=1">'.$posttitle.'</a>
                         </h2>
-                        <div class="entry-meta"><div class="meta-item date"><span class="updated">'.$diff->format("%a days ago ").'</span></div></div>
                     </div>
                     <a href="indexbbbf.html?p=191" class="vce-featured-header-background"></a>
                 </div>
@@ -47,5 +46,6 @@
 
         ';
     }
+
 
 ?>

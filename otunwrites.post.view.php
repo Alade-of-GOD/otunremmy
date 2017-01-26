@@ -161,9 +161,6 @@
 								</span>
 								<h1 class="entry-title"><?php echo $posttitle; ?></h1>
 								<div class="entry-meta">
-									<div class="meta-item date">
-										<span class="updated"><?php echo $diff->format("%a days ago ").$posttime; ?></span>
-									</div>
 									<div class="meta-item comments">
 										<a href="indexbbbf.html?p=191#comments"><?php echo $postnumcomment." comments"; ?> </a>
 									</div>
@@ -388,3 +385,6 @@
 	</script>
 </body>
 </html>
+<?php
+	$db->close();
+?>

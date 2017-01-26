@@ -45,7 +45,7 @@
 		        $postnumcomment = $row['numberofcomments'];
 		        $postlikes = $row['numberoflikes'];
 		        $postview = $row['viewsofpost'];
-		        $postdate = $row['dateofpost'];
+		        //$postdate = $row['dateofpost'];
 		        $posttime = $row['timeofpost'];
 		        $arr = explode(' ', trim($postcategory));
 		        $cat = $arr[0];
@@ -56,9 +56,9 @@
 		            $contentshort = $contentshort .' '. $contentarr[$i];
 		        }
 		        $contentshort = $contentshort.'...';
-		        $date1 = new DateTime($postdate);
-		        $date2 = new DateTime();
-		        $diff = date_diff($date2, $date1);
+		        //$date1 = new DateTime($postdate);
+		        //$date2 = new DateTime();
+		        //$diff = date_diff($date2, $date1);
 		        echo '
 		        <article class="vce-post vce-lay-c post-191 post type-post status-publish format-standard has-post-thumbnail hentry category-food tag-chocolates tag-food-2 tag-magazine tag-sugar tag-sweet">
 		            <div class="meta-image">
@@ -71,9 +71,6 @@
 		                <h2 class="entry-title">
 		                    <a href="otunwrites.post.view.php?page_post_id='.$postid.'&currentpage=1">'.$posttitle.'</a>
 		                </h2>
-		                <div class="entry-meta">
-		                    <div class="meta-item date"><span class="updated">'.$diff->format("%a days ago ").'</span></div>
-		                </div>
 		            </header>
 		            <div class="entry-content">
 		                <p>'.$contentshort.'</p>

@@ -9,8 +9,8 @@
         if(!$result = $db->query($sql)){
             die('There was an error running the query [' . $db->error . ']');
         }
-        $date = date("Y-m-d");
-    	$time = date("d/m/Y");
+        $time = date("h:i:sa");
+    	$date = date("d/m/Y");
         if ($result->num_rows > 0) {
             while($row = $result->fetch_assoc()) {
                 $userName = $row['userName'];

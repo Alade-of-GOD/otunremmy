@@ -179,3 +179,7 @@
 	<script type='text/javascript' src='otun-content/uploads/minit/cfa3f9c3a3b15876a4062bf71b6a9ece.js'></script>
 </body>
 </html>
+
+<?php
+	$db->close();
+?>

@@ -23,7 +23,7 @@
     $rowviewsall = $resultviewssumall->fetch_assoc();
     $_SESSION['viewssum'] = $rowviewsall['c'];
 
-    $avgviews = $_SESSION['viewssum'] / $_SESSION['allpostcount'];
+    $avgviews = intval($_SESSION['viewssum'] / $_SESSION['allpostcount']);
 
     //$db->close();
 

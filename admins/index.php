@@ -56,6 +56,17 @@
                         <table class="table table-bordered table-hover">
                             <thead>
                                 <tr>
+                                    <form action="selectallpostfilter.php">
+                                        <tr>
+                                            <td></td>
+                                            <td><label for="">Filter: </label></td>
+                                            <td><label>later than</label></td>
+                                            <td><input type="text" name="frm" placeholder="01/12/2011" class="form-control input-sm input-datepicker"></td>
+                                            <td><button class="btn-primary" type="submit">filter</button></td>
+                                        </tr>
+                                    </form>
+                                </tr>
+                                <tr>
                                     <th>S/N</th>
                                     <th>Title</th>
                                     <th>Category</th>

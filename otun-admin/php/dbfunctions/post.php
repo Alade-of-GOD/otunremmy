@@ -18,16 +18,16 @@
         $postnumcomment = $row['numberofcomments'];
         $postlikes = $row['numberoflikes'];
         $postview = $row['viewsofpost'];
-        $postdate = $row['dateofpost'];
+        //$postdate = $row['dateofpost'];
         $posttime = $row['timeofpost'];
     }
 
     $arr = explode(' ', trim($postcategory));
     $cat = $arr[0];
     $title = $arr[1];
-    $date1 = new DateTime($postdate);
-    $date2 = new DateTime();
-    $diff = date_diff($date2, $date1);
+    //$date1 = new DateTime($postdate);
+    //$date2 = new DateTime();
+    //$diff = date_diff($date2, $date1);
 
 //author details
     $q = "SELECT * FROM `otun_authors` WHERE `nameofauthor` = '$postauthor'";

@@ -15,17 +15,17 @@
         $postnumcomment = $row['numberofcomments'];
         $postlikes = $row['numberoflikes'];
         $postview = $row['viewsofpost'];
-        $postdate = $row['dateofpost'];
+        //$postdate = date("d/m/Y", strtotime($row['dateofpost']));
         $posttime = $row['timeofpost'];
         $contentshort = '';
         $contentarr = explode(' ', trim($postcontent));
-        for ($i = 0; $i < 20; $i++) {
+        for ($i = 0; $i < 10; $i++) {
             $contentshort = $contentshort .' '. $contentarr[$i];
         }
         $contentshort = $contentshort.'...';
-        $date1 = new DateTime($postdate);
-        $date2 = new DateTime();
-        $diff = date_diff($date2, $date1);
+        //$date1 = new DateTime($postdate);
+        //$date2 = new DateTime();
+        //$diff = date_diff($date2, $date1);
         echo '
             <article class="vce-post vce-lay-b post-203 post type-post status-publish format-standard has-post-thumbnail hentry category-environment category-technology tag-earth tag-ecology tag-solar-energy">
                 <div class="meta-image">
@@ -42,7 +42,6 @@
                         <a href="otunwrites.post.view.php?page_post_id='.$postid.'&currentpage=1" title="">'.$posttitle.'</a>
                     </h2>
                     <div class="entry-meta">
-                        <div class="meta-item date"><span class="updated">'.$diff->format("%a days ago ").'</span></div>
                         <div class="meta-item comments">
                             <div>'.$postnumcomment.' Comment</div>
                         </div>

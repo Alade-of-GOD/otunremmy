@@ -16,7 +16,7 @@
         $postnumcomment = $row['numberofcomments'];
         $postlikes = $row['numberoflikes'];
         $postview = $row['viewsofpost'];
-        $postdate = $row['dateofpost'];
+        //$postdate = date("d/m/Y", strtotime($row['dateofpost']));
         $posttime = $row['timeofpost'];
         $contentshort = '';
         $contentarr = explode(' ', trim($postcontent));
@@ -24,9 +24,9 @@
             $contentshort = $contentshort .' '. $contentarr[$i];
         }
         $contentshort = $contentshort.'...';
-        $date1 = new DateTime($postdate);
-        $date2 = new DateTime();
-        $diff = date_diff($date2, $date1);
+        //$date1 = new DateTime($postdate);
+        //$date2 = new DateTime();
+        //$diff = date_diff($date2, $date1);
         echo '
         <div id="main-box-3" class="main-box vce-border-top main-box-half ">
             <h3 class="main-box-title cat-4">'.$category.'</h3>
@@ -38,13 +38,10 @@
                         </a>
                     </div>
                     <header class="entry-header">
-                        <span class="meta-category"><a href="" class="category-4">'.$postauthor.'</a></span>
+                        <span class="meta-category"><a href="#" class="category-4">'.$postauthor.'</a></span>
                         <h2 class="entry-title">
                             <a href="otunwrites.post.view.php?page_post_id='.$postid.'&currentpage=1" title="'.$posttitle.'">'.$posttitle.'</a>
                         </h2>
-                        <div class="entry-meta">
-                            <div class="meta-item date"><span class="updated">'.$diff->format("%a days ago ").'</span></div>
-                        </div>
                     </header>
                     <div class="entry-content">
                         <p>'.$contentshort.'</p>
@@ -69,7 +66,7 @@
         $postnumcomment = $row['numberofcomments'];
         $postlikes = $row['numberoflikes'];
         $postview = $row['viewsofpost'];
-        $postdate = $row['dateofpost'];
+        //$postdate = date("d/m/Y", strtotime($row['dateofpost']));
         $posttime = $row['timeofpost'];
         $contentshort = '';
         $contentarr = explode(' ', trim($postcontent));
@@ -77,9 +74,9 @@
             $contentshort = $contentshort .' '. $contentarr[$i];
         }
         $contentshort = $contentshort.'...';
-        $date1 = new DateTime($postdate);
-        $date2 = new DateTime();
-        $diff = date_diff($date2, $date1);
+        //$date1 = new DateTime($postdate);
+        //$date2 = new DateTime();
+        //$diff = date_diff($date2, $date1);
         echo '
         <div class="vce-loop-wrap" >
             <article class="vce-post vce-lay-d post-144 post type-post status-publish format-standard has-post-thumbnail hentry category-fashion">
@@ -89,7 +86,7 @@
                     </a>
                 </div>
                 <header class="entry-header">
-                    <span class="meta-category"><a href="otunwrites.'.strtolower($category).'.php" class="category-4">'.$category.'</a></span>
+                    <span class="meta-category"><a href="#" class="category-4">'.$category.'</a></span>
                     <h2 class="entry-title">
                         <a href="otunwrites.post.view.php?page_post_id='.$postid.'&currentpage=1" title="">'.$posttitle.'</a>
                     </h2>
@@ -114,7 +111,7 @@
         $postnumcomment = $row['numberofcomments'];
         $postlikes = $row['numberoflikes'];
         $postview = $row['viewsofpost'];
-        $postdate = $row['dateofpost'];
+        //$postdate = date("d/m/Y", strtotime($row['dateofpost']));
         $posttime = $row['timeofpost'];
         $contentshort = '';
         $contentarr = explode(' ', trim($postcontent));
@@ -122,9 +119,9 @@
             $contentshort = $contentshort .' '. $contentarr[$i];
         }
         $contentshort = $contentshort.'...';
-        $date1 = new DateTime($postdate);
-        $date2 = new DateTime();
-        $diff = date_diff($date2, $date1);
+        //$date1 = new DateTime($postdate);
+        //$date2 = new DateTime();
+        //$diff = date_diff($date2, $date1);
         echo '
             <article class="vce-post vce-lay-d post-144 post type-post status-publish format-standard has-post-thumbnail hentry category-fashion">
                 <div class="meta-image">
@@ -133,7 +130,7 @@
                     </a>
                 </div>
                 <header class="entry-header">
-                    <span class="meta-category"><a href="otunwrites.'.strtolower($category).'.php" class="category-4">'.$category.'</a></span>
+                    <span class="meta-category"><a href="#" class="category-4">'.$category.'</a></span>
                     <h2 class="entry-title">
                         <a href="otunwrites.post.view.php?page_post_id='.$postid.'&currentpage=1" title="">'.$posttitle.'</a>
                     </h2>
@@ -160,7 +157,7 @@
         $postnumcomment = $row['numberofcomments'];
         $postlikes = $row['numberoflikes'];
         $postview = $row['viewsofpost'];
-        $postdate = $row['dateofpost'];
+        //$postdate = date("d/m/Y", strtotime($row['dateofpost']));
         $posttime = $row['timeofpost'];
         $contentshort = '';
         $contentarr = explode(' ', trim($postcontent));
@@ -168,9 +165,9 @@
             $contentshort = $contentshort .' '. $contentarr[$i];
         }
         $contentshort = $contentshort.'...';
-        $date1 = new DateTime($postdate);
-        $date2 = new DateTime();
-        $diff = date_diff($date2, $date1);
+        //$date1 = new DateTime($postdate);
+        //$date2 = new DateTime();
+        //$diff = date_diff($date2, $date1);
         echo '
         <div id="main-box-3" class="main-box vce-border-top main-box-half ">
             <h3 class="main-box-title cat-4">'.$category.'</h3>
@@ -186,9 +183,6 @@
                         <h2 class="entry-title">
                             <a href="otunwrites.post.view.php?page_post_id='.$postid.'&currentpage=1" title="'.$posttitle.'">'.$posttitle.'</a>
                         </h2>
-                        <div class="entry-meta">
-                            <div class="meta-item date"><span class="updated">'.$diff->format("%a days ago ").'</span></div>
-                        </div>
                     </header>
                     <div class="entry-content">
                         <p>'.$contentshort.'</p>
@@ -214,7 +208,7 @@
         $postnumcomment = $row['numberofcomments'];
         $postlikes = $row['numberoflikes'];
         $postview = $row['viewsofpost'];
-        $postdate = $row['dateofpost'];
+        //$postdate = date("d/m/Y", strtotime($row['dateofpost']));
         $posttime = $row['timeofpost'];
         $contentshort = '';
         $contentarr = explode(' ', trim($postcontent));
@@ -222,9 +216,9 @@
             $contentshort = $contentshort .' '. $contentarr[$i];
         }
         $contentshort = $contentshort.'...';
-        $date1 = new DateTime($postdate);
-        $date2 = new DateTime();
-        $diff = date_diff($date2, $date1);
+        //$date1 = new DateTime($postdate);
+        //$date2 = new DateTime();
+        //$diff = date_diff($date2, $date1);
         echo '
         <div class="vce-loop-wrap" >
             <article class="vce-post vce-lay-d post-144 post type-post status-publish format-standard has-post-thumbnail hentry category-fashion">
@@ -234,7 +228,7 @@
                     </a>
                 </div>
                 <header class="entry-header">
-                    <span class="meta-category"><a href="otunwrites.'.strtolower($category).'.php" class="category-4">'.$category.'</a></span>
+                    <span class="meta-category"><a href="#" class="category-4">'.$category.'</a></span>
                     <h2 class="entry-title">
                         <a href="otunwrites.post.view.php?page_post_id='.$postid.'&currentpage=1" title="">'.$posttitle.'</a>
                     </h2>
@@ -259,7 +253,7 @@
         $postnumcomment = $row['numberofcomments'];
         $postlikes = $row['numberoflikes'];
         $postview = $row['viewsofpost'];
-        $postdate = $row['dateofpost'];
+        //$postdate = date("d/m/Y", strtotime($row['dateofpost']));
         $posttime = $row['timeofpost'];
         $contentshort = '';
         $contentarr = explode(' ', trim($postcontent));
@@ -267,9 +261,9 @@
             $contentshort = $contentshort .' '. $contentarr[$i];
         }
         $contentshort = $contentshort.'...';
-        $date1 = new DateTime($postdate);
-        $date2 = new DateTime();
-        $diff = date_diff($date2, $date1);
+        //$date1 = new DateTime($postdate);
+        //$date2 = new DateTime();
+        //$diff = date_diff($date2, $date1);
         echo '
             <article class="vce-post vce-lay-d post-144 post type-post status-publish format-standard has-post-thumbnail hentry category-fashion">
                 <div class="meta-image">
@@ -278,7 +272,7 @@
                     </a>
                 </div>
                 <header class="entry-header">
-                    <span class="meta-category"><a href="otunwrites.'.strtolower($category).'.php" class="category-4">'.$category.'</a></span>
+                    <span class="meta-category"><a href="#" class="category-4">'.$category.'</a></span>
                     <h2 class="entry-title">
                         <a href="otunwrites.post.view.php?page_post_id='.$postid.'&currentpage=1" title="">'.$posttitle.'</a>
                     </h2>
@@ -306,7 +300,7 @@
         $postnumcomment = $row['numberofcomments'];
         $postlikes = $row['numberoflikes'];
         $postview = $row['viewsofpost'];
-        $postdate = $row['dateofpost'];
+        //$postdate = date("d/m/Y", strtotime($row['dateofpost']));
         $posttime = $row['timeofpost'];
         $contentshort = '';
         $contentarr = explode(' ', trim($postcontent));
@@ -314,9 +308,9 @@
             $contentshort = $contentshort .' '. $contentarr[$i];
         }
         $contentshort = $contentshort.'...';
-        $date1 = new DateTime($postdate);
-        $date2 = new DateTime();
-        $diff = date_diff($date2, $date1);
+        //$date1 = new DateTime($postdate);
+        //$date2 = new DateTime();
+        //$diff = date_diff($date2, $date1);
         echo '
         <div id="main-box-3" class="main-box vce-border-top main-box-half ">
             <h3 class="main-box-title cat-4">'.$category.'</h3>
@@ -328,13 +322,10 @@
                         </a>
                     </div>
                     <header class="entry-header">
-                        <span class="meta-category"><a href="" class="category-4">'.$postauthor.'</a></span>
+                        <span class="meta-category"><a href="#" class="category-4">'.$postauthor.'</a></span>
                         <h2 class="entry-title">
                             <a href="otunwrites.post.view.php?page_post_id='.$postid.'&currentpage=1" title="'.$posttitle.'">'.$posttitle.'</a>
                         </h2>
-                        <div class="entry-meta">
-                            <div class="meta-item date"><span class="updated">'.$diff->format("%a days ago ").'</span></div>
-                        </div>
                     </header>
                     <div class="entry-content">
                         <p>'.$contentshort.'</p>
@@ -359,7 +350,7 @@
         $postnumcomment = $row['numberofcomments'];
         $postlikes = $row['numberoflikes'];
         $postview = $row['viewsofpost'];
-        $postdate = $row['dateofpost'];
+        //$postdate = date("d/m/Y", strtotime($row['dateofpost']));
         $posttime = $row['timeofpost'];
         $contentshort = '';
         $contentarr = explode(' ', trim($postcontent));
@@ -367,9 +358,9 @@
             $contentshort = $contentshort .' '. $contentarr[$i];
         }
         $contentshort = $contentshort.'...';
-        $date1 = new DateTime($postdate);
-        $date2 = new DateTime();
-        $diff = date_diff($date2, $date1);
+        //$date1 = new DateTime($postdate);
+        //$date2 = new DateTime();
+        //$diff = date_diff($date2, $date1);
         echo '
         <div class="vce-loop-wrap" >
             <article class="vce-post vce-lay-d post-144 post type-post status-publish format-standard has-post-thumbnail hentry category-fashion">
@@ -379,7 +370,7 @@
                     </a>
                 </div>
                 <header class="entry-header">
-                    <span class="meta-category"><a href="otunwrites.'.strtolower($category).'.php" class="category-4">'.$category.'</a></span>
+                    <span class="meta-category"><a href="#" class="category-4">'.$category.'</a></span>
                     <h2 class="entry-title">
                         <a href="otunwrites.post.view.php?page_post_id='.$postid.'&currentpage=1" title="">'.$posttitle.'</a>
                     </h2>
@@ -404,7 +395,7 @@
         $postnumcomment = $row['numberofcomments'];
         $postlikes = $row['numberoflikes'];
         $postview = $row['viewsofpost'];
-        $postdate = $row['dateofpost'];
+        //$postdate = date("d/m/Y", strtotime($row['dateofpost']));
         $posttime = $row['timeofpost'];
         $contentshort = '';
         $contentarr = explode(' ', trim($postcontent));
@@ -412,9 +403,9 @@
             $contentshort = $contentshort .' '. $contentarr[$i];
         }
         $contentshort = $contentshort.'...';
-        $date1 = new DateTime($postdate);
-        $date2 = new DateTime();
-        $diff = date_diff($date2, $date1);
+        //$date1 = new DateTime($postdate);
+        //$date2 = new DateTime();
+        //$diff = date_diff($date2, $date1);
         echo '
             <article class="vce-post vce-lay-d post-144 post type-post status-publish format-standard has-post-thumbnail hentry category-fashion">
                 <div class="meta-image">
@@ -423,7 +414,7 @@
                     </a>
                 </div>
                 <header class="entry-header">
-                    <span class="meta-category"><a href="otunwrites.'.strtolower($category).'.php" class="category-4">'.$category.'</a></span>
+                    <span class="meta-category"><a href="#" class="category-4">'.$category.'</a></span>
                     <h2 class="entry-title">
                         <a href="otunwrites.post.view.php?page_post_id='.$postid.'&currentpage=1" title="">'.$posttitle.'</a>
                     </h2>
@@ -450,7 +441,7 @@
         $postnumcomment = $row['numberofcomments'];
         $postlikes = $row['numberoflikes'];
         $postview = $row['viewsofpost'];
-        $postdate = $row['dateofpost'];
+        //$postdate = date("d/m/Y", strtotime($row['dateofpost']));
         $posttime = $row['timeofpost'];
         $contentshort = '';
         $contentarr = explode(' ', trim($postcontent));
@@ -458,9 +449,9 @@
             $contentshort = $contentshort .' '. $contentarr[$i];
         }
         $contentshort = $contentshort.'...';
-        $date1 = new DateTime($postdate);
-        $date2 = new DateTime();
-        $diff = date_diff($date2, $date1);
+        //$date1 = new DateTime($postdate);
+        //$date2 = new DateTime();
+        //$diff = date_diff($date2, $date1);
         echo '
         <div id="main-box-3" class="main-box vce-border-top main-box-half ">
             <h3 class="main-box-title cat-4">'.$category.'</h3>
@@ -476,9 +467,6 @@
                         <h2 class="entry-title">
                             <a href="otunwrites.post.view.php?page_post_id='.$postid.'&currentpage=1" title="'.$posttitle.'">'.$posttitle.'</a>
                         </h2>
-                        <div class="entry-meta">
-                            <div class="meta-item date"><span class="updated">'.$diff->format("%a days ago ").'</span></div>
-                        </div>
                     </header>
                     <div class="entry-content">
                         <p>'.$contentshort.'</p>
@@ -504,7 +492,7 @@
         $postnumcomment = $row['numberofcomments'];
         $postlikes = $row['numberoflikes'];
         $postview = $row['viewsofpost'];
-        $postdate = $row['dateofpost'];
+        //$postdate = date("d/m/Y", strtotime($row['dateofpost']));
         $posttime = $row['timeofpost'];
         $contentshort = '';
         $contentarr = explode(' ', trim($postcontent));
@@ -512,9 +500,9 @@
             $contentshort = $contentshort .' '. $contentarr[$i];
         }
         $contentshort = $contentshort.'...';
-        $date1 = new DateTime($postdate);
-        $date2 = new DateTime();
-        $diff = date_diff($date2, $date1);
+        //$date1 = new DateTime($postdate);
+        //$date2 = new DateTime();
+        //$diff = date_diff($date2, $date1);
         echo '
         <div class="vce-loop-wrap" >
             <article class="vce-post vce-lay-d post-144 post type-post status-publish format-standard has-post-thumbnail hentry category-fashion">
@@ -524,7 +512,7 @@
                     </a>
                 </div>
                 <header class="entry-header">
-                    <span class="meta-category"><a href="otunwrites.'.strtolower($category).'.php" class="category-4">'.$category.'</a></span>
+                    <span class="meta-category"><a href="#" class="category-4">'.$category.'</a></span>
                     <h2 class="entry-title">
                         <a href="otunwrites.post.view.php?page_post_id='.$postid.'&currentpage=1" title="">'.$posttitle.'</a>
                     </h2>
@@ -549,7 +537,7 @@
         $postnumcomment = $row['numberofcomments'];
         $postlikes = $row['numberoflikes'];
         $postview = $row['viewsofpost'];
-        $postdate = $row['dateofpost'];
+        //$postdate = date("d/m/Y", strtotime($row['dateofpost']));
         $posttime = $row['timeofpost'];
         $contentshort = '';
         $contentarr = explode(' ', trim($postcontent));
@@ -557,9 +545,9 @@
             $contentshort = $contentshort .' '. $contentarr[$i];
         }
         $contentshort = $contentshort.'...';
-        $date1 = new DateTime($postdate);
-        $date2 = new DateTime();
-        $diff = date_diff($date2, $date1);
+        //$date1 = new DateTime($postdate);
+        //$date2 = new DateTime();
+        //$diff = date_diff($date2, $date1);
         echo '
             <article class="vce-post vce-lay-d post-144 post type-post status-publish format-standard has-post-thumbnail hentry category-fashion">
                 <div class="meta-image">
@@ -568,7 +556,7 @@
                     </a>
                 </div>
                 <header class="entry-header">
-                    <span class="meta-category"><a href="otunwrites.'.strtolower($category).'.php" class="category-4">'.$category.'</a></span>
+                    <span class="meta-category"><a href="#" class="category-4">'.$category.'</a></span>
                     <h2 class="entry-title">
                         <a href="otunwrites.post.view.php?page_post_id='.$postid.'&currentpage=1" title="">'.$posttitle.'</a>
                     </h2>

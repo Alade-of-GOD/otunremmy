@@ -45,7 +45,7 @@
 	</script>
 	<script type='text/javascript'>
 	/* <![CDATA[ */
-		var vce_js_settings = {"sticky_header":"1","sticky_header_offset":"700","sticky_header_logo":"","logo":"http:\/\/demo.mekshq.com\/voice\/otun-content\/themes\/voice\/images\/voice_logo.png","logo_retina":"http:\/\/demo.mekshq.com\/voice\/otun-content\/uploads\/2015\/05\/voice_logo@2x.png","logo_mobile":"","logo_mobile_retina":"","rtl_mode":"0","ajax_url":"http:\/\/demo.mekshq.com\/voice\/otun-admin\/admin-ajax.php","ajax_mega_menu":"1","mega_menu_slider":"","mega_menu_subcats":"","lay_fa_grid_center":"","full_slider_autoplay":"","grid_slider_autoplay":"","fa_big_opacity":{"1":"0.5","2":"0.7"}};
+		var vce_js_settings = {"sticky_header":"1","sticky_header_offset":"700","sticky_header_logo":"","logo_mobile":"","logo_mobile_retina":"","rtl_mode":"0","ajax_mega_menu":"1","mega_menu_slider":"","mega_menu_subcats":"","lay_fa_grid_center":"","full_slider_autoplay":"on","grid_slider_autoplay":"on","fa_big_opacity":{"1":"0.5","2":"0.7"}};
 	/* ]]> */
 	</script>
 	<script>
@@ -181,3 +181,6 @@
 </body>
 
 </html>
+<?php
+	$db->close();
+?>

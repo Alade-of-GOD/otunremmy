@@ -9,8 +9,8 @@
         $posttitle = $_POST['posttitle'];
         $category = $_POST['category'];
         $postcontent = nl2br($_POST['postcontent']);
-        $date = date("Y-m-d");
-    	$time = date("d/m/Y");
+        $time = date("h:i:sa");
+    	$date = date("d/m/Y");
         $fName = $_SESSION['fName'];
         $feauturedimage = ($_FILES['feauturedimage']['name']);
         //echo $feauturedimage;

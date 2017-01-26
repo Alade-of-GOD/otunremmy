@@ -6,7 +6,7 @@
 	$email = $_POST['your-email'];
 	$comment = $_POST['your-comment'];
 	$web = $_POST['your-url'];
-	$date = date("Y-m-d");
+	$date = date("d/m/Y");
 	$time = date("h:i:sa");
 
 	$ins = "INSERT INTO `otun_comments` (postid, commentonpost, commentby, commentbyemail, commentwebpage, commentdate, commenttime, approved)
