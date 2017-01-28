@@ -36,7 +36,7 @@
                 <header class="entry-header">
                     <span class="meta-category">
                         <span>&bull;</span>
-                        <a href="otunwrites.'.strtolower($category).'.php" class="category-6">'.$category.'</a>
+                        <a href="#" class="category-6">'.$category.'</a>
                     </span>
                     <h2 class="entry-title">
                         <a href="otunwrites.post.view.php?page_post_id='.$postid.'&currentpage=1" title="">'.$posttitle.'</a>

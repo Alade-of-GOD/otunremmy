@@ -9,6 +9,13 @@
     $_SESSION['newBroadCast'] = $rw['c'];
     //echo $_SESSION['newBroadCast'];
 
+    $com = "SELECT COUNT(*) AS c FROM `otun_comments` WHERE `approved` = 0";
+    if (!$comr = $db->query($com)){
+        die('There was an error running the query [' . $db->error . ']');
+    }
+    $cw = $comr->fetch_assoc();
+    $_SESSION['newComment'] = $cw['c'];
+
     $countall = "SELECT COUNT(*) AS c FROM `otun_posts`";
     if (!$resultcountall = $db->query($countall)){
         die('There was an error running the query [' . $db->error . ']');
@@ -27,4 +34,5 @@
 
     //$db->close();
 
+    $_SESSION['newAlerts'] = $_SESSION['newBroadCast'] + $_SESSION['newComment'];
 ?>

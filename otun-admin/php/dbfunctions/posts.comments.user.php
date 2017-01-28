@@ -20,7 +20,7 @@
 	while($row = $result->fetch_assoc()){
 		$content = nl2br($row['commentonpost']);
 		$by = $row['commentby'];
-		$date = $row['commentdate'];
+		$date = strtotime($row['commentdate']);
 		$time = $row['commenttime'];
 		$approved = $row['approved'];
 		switch ($approved) {
@@ -34,9 +34,9 @@
 				$check = "<i>your comment was not approved...</i>";
 				break;
 		}
-		$date1 = new DateTime($date);
-	    $date2 = new DateTime();
-	    $diff = date_diff($date2, $date1);
+		///$date1 = new DateTime($date);
+	    //$date2 = new DateTime();
+	    //$diff = date_diff($date2, $date1);
 
 		echo '
 			<li id="comment-39" class="comment even thread-even depth-1">
@@ -45,9 +45,6 @@
 						<div class="comment-author vcard">
 							<img src="otun-content/post/gravatar.jpg" width="75" height="75" alt="" class="avatar avatar-75wp-user-avatar wp-user-avatar-75 alignnone photo avatar-default" />
 							<b class="fn">'.$by.'</b>
-						</div>
-						<div class="comment-metadata">
-								<label>'.$diff->format("%a days ago ").$time.'</label>
 						</div>
 					</footer>
 					<div class="comment-content">

@@ -40,10 +40,6 @@
                     <div class="left-inner-shadow profile-charts">
                         <div class="row">
                             <div class="col-md-12 col-lg-6">
-                                <h4 class="knob-header">Sales</h4>
-                                <input type="text" value="75" class="knob" data-fgColor="#df6064" data-linecap="round" data-width="100" data-height="100">
-                            </div>
-                            <div class="col-lg-6 visible-lg">
                                 <h4 class="knob-header">Posts%</h4>
                                 <input type="text" value="<?php echo $_SESSION['perc']; ?>" class="knob" data-fgColor="#318cc8" data-linecap="round" data-width="100" data-height="100">
                             </div>
@@ -105,6 +101,12 @@
                 <div class="widget widget-blue" id="widget_stats">
                     <form method="post" action="phpfunc/postpusher.php" enctype="multipart/form-data">
                         <div class="widget-title">
+                            <span class="offset_anchor" id="widget_server_activity"></span>
+                            <div class="widget-controls">
+                                <a href="#" class="widget-control widget-control-full-screen" data-toggle="tooltip" data-placement="top" title="" data-original-title="Expand"><i class="fa fa-expand"></i></a>
+                                <a href="#" class="widget-control widget-control-full-screen widget-control-show-when-full" data-toggle="tooltip" data-placement="left" title="" data-original-title="Collapse"><i class="fa fa-expand"></i></a>
+                                <a href="#" class="widget-control widget-control-minimize" data-toggle="tooltip" data-placement="top" title="" data-original-title="Minimize"><i class="fa fa-minus-circle"></i></a>
+                            </div>
                             <h3><i class="fa fa-ok-circle"></i>POST ON BLOG</h3>
                         </div>
                         <div class="widget-content">
@@ -131,10 +133,10 @@
                                     <option value="health">HEALTH</option>
                                     <option value="inpirational">Inspirational</option>
                                     <optgroup label="POEM">
-                                        <option value="Poem End Time">End Time</option>
-                                        <option value="Poem Grace">Grace</option>
-                                        <option value="Poem Sacred">Sacred</option>
-                                        <option value="Poem Special">Special</option>
+                                        <option value="End Time">End Time</option>
+                                        <option value="Grace">Grace</option>
+                                        <option value="Sacred">Sacred</option>
+                                        <option value="Special">Special</option>
                                     </optgroup>
                                 </select>
                                 <span class="help-block"><strong>Select a category from the drop down menu. Note: <i>For Poems, click on a subcategory where the poem belogs to</i></strong></span>
@@ -147,6 +149,26 @@
                             <button type="submit" class="btn btn-primary">Send Post</button>
                         </div>
                     </form>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="post">
+            <div class="col-md-12" id="commentwidget">
+                <div class="widget widget-blue" id="widget_stats">
+                    <div class="widget-title">
+                        <span class="offset_anchor" id="widget_server_activity"></span>
+                        <div class="widget-controls">
+                            <a href="#" class="widget-control widget-control-full-screen" data-toggle="tooltip" data-placement="top" title="" data-original-title="Expand"><i class="fa fa-expand"></i></a>
+                            <a href="#" class="widget-control widget-control-full-screen widget-control-show-when-full" data-toggle="tooltip" data-placement="left" title="" data-original-title="Collapse"><i class="fa fa-expand"></i></a>
+                            <a href="#" class="widget-control widget-control-minimize" data-toggle="tooltip" data-placement="top" title="" data-original-title="Minimize"><i class="fa fa-minus-circle"></i></a>
+                        </div>
+                        <h3><i class="fa fa-ok-circle"></i>Comments to be Approved</h3>
+                    </div>
+                    <div class="widget-content">
+                        <ul class="activity-list">
+                            <?php include ('phpfunc/comunappselect.php'); ?>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>

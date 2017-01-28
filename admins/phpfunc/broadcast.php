@@ -1,5 +1,5 @@
 <?php
-
+    session_start();
     require_once('../../otun-admin/php/dbfunctions/connect.inc.php');
     $u = $_SESSION['userN'];
 
@@ -10,7 +10,7 @@
             die('There was an error running the query [' . $db->error . ']');
         }
         $time = date("h:i:sa");
-    	$date = date("d/m/Y");
+    	$date = date("Y-m-d");
         if ($result->num_rows > 0) {
             while($row = $result->fetch_assoc()) {
                 $userName = $row['userName'];

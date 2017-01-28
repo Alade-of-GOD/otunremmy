@@ -16,7 +16,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<script src="otun-content/themes/voice/js/html5.js"></script>
-
+    <script src="assets/seen.js"></script>
 	<title>otun writes &#8211; otunremmy blog</title>
 	<link rel="shortcut icon" href="../otun-content/themes/voice/favicon.ico" type="image/x-icon" />
 	<link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
@@ -42,9 +42,10 @@
                 <input type="text" class="top-search" placeholder="Search"/>
             </div>
             <div class="dropdown hidden-sm hidden-xs">
-                <a href="#" data-toggle="dropdown" class="header-link"><i class="fa fa-bolt"></i> Alerts <span class="badge alert-animated"><?php echo $_SESSION['newBroadCast']; ?></span></a>
+                <a href="#" data-toggle="dropdown" class="header-link"><i class="fa fa-bolt"></i> Alerts <span class="badge alert-animated"><?php echo $_SESSION['newAlerts']; ?></span></a>
                 <ul class="dropdown-menu dropdown-inbar dropdown-wide">
-                    <li><a href="profile.php#broadwidget"><span class="label label-warning"><?php echo $_SESSION['newBroadCast']." BC"; ?></span> <i class="fa fa-bell"></i>Received Broadcast</a></li>
+                    <li onclick="seenBroadcast()"><a href="#"><span class="label label-warning"><?php echo $_SESSION['newBroadCast']." BC"; ?></span> <i class="fa fa-bell"></i>Received Broadcast</a></li>
+                    <li onclick="seenComment()"><a href="#"><span class="label label-warning"><?php echo $_SESSION['newComment']." comment(s)"; ?></span> <i class="fa fa-comment"></i>New Comments</a></li>
                 </ul>
             </div>
             <div class="dropdown">
@@ -59,7 +60,7 @@
                 <ul class="dropdown-menu dropdown-inbar">
                     <li><a href="#"><span class="label label-warning">2</span> <i class="fa fa-envelope"></i> Messages</a></li>
                     <li><a href="#"><span class="label label-warning">4</span> <i class="fa fa-users"></i> Friends</a></li>
-                    <li><a href="profile.php"><i class="fa fa-cog"></i>Profile Account</a></li>
+                    <li><a href="profile.php"><i class="fa fa-user"></i>Profile Account</a></li>
                     <li><a href="logout.php"><i class="fa fa-power-off"></i> Logout</a></li>
                 </ul>
             </div>
@@ -75,6 +76,11 @@
                 </a>
             </li>
             <li>
+                <a href="profile.php" data-toggle="tooltip" data-placement="right" title="" data-original-title="Profile Account">
+                    <i class="fa fa-user"></i>
+                </a>
+            </li>
+            <li>
                 <a href="profile.php#post" data-toggle="tooltip" data-placement="right" title="" data-original-title="Add New Post">
                     <i class="fa fa-font"></i>
                 </a>
@@ -84,12 +90,19 @@
                     <i class="fa fa-file-text-o"></i>
                 </a>
             </li>
+            <li>
+                <a href="logout.php" data-toggle="tooltip" data-placement="right" title="" data-original-title="Logout">
+                    <i class="fa fa-power-off"></i>
+                </a>
+            </li>
         </ul>
     </div>
     <div class="sub-sidebar-wrapper">
         <ul class="nav">
             <li><a href="index.php#statistics">Statistics</a></li>
             <li><a href="profile.php#broadwidget">New Broadcast</a></li>
+            <li onclick="seenBroadcast()"><a href="#"><span class="label label-warning"><?php echo $_SESSION['newBroadCast']; ?></span>Received Broadcast</a></li>
+            <li onclick="seenComment()"><a href="#"><span class="label label-warning"><?php echo $_SESSION['newComment']; ?></span></i>New Comments</a></li>
         </ul>
     </div>
 </div>

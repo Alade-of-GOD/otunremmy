@@ -241,7 +241,7 @@
 									$posttitle = $row['titleofpost'];
 									$postimage = $row['imageofpost'];
 									echo '
-										<li class="cat-item cat-item-'.$i.'"><a href="" ><a href="#">'.$posttitle.'<span class="count"><span class="count-hidden"><img width="45" height="45" src="otun-content/post/feauturedimage/'.$postimage.'" class="attachment-vce-lay-d size-vce-lay-d wp-post-image"/></span></span></a>
+										<li class="cat-item cat-item-'.$i.'"><a href="" ><a href="otunwrites.post.view.php?page_post_id='.$postid.'&currentpage=1">'.$posttitle.'<span class="count"><span class="count-hidden"><img width="45" height="45" src="otun-content/post/feauturedimage/'.$postimage.'" class="attachment-vce-lay-d size-vce-lay-d wp-post-image"/></span></span></a>
 										</li>
 									';
 									$i++;
