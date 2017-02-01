@@ -14,10 +14,10 @@
         echo '
         <li>
             <div class="row">
-                <div class="col-xs-9"><p><i class="fa fa-user activity-image"></i>'.$who.' said <i>"'.$what.'"</i> on <strong>'.$tit.'</strong></p></div>
+                <div class="col-xs-9"><p><i class="fa fa-user activity-image"></i>'.$who.' said <em><span>"'.$what.'"<span/></em> on <strong>'.$tit.'</strong></p></div>
                 <div class="col-xs-3 text-right">
-                    <a href="#"><span class="activity-time">approve</span></a>
-                    <a href="phpfunc/seencomment.php?br='.$rwc['idofcomment'].'" title="click to approve"><i class="fa fa-check"></i></a>
+                    <a href="phpfunc/delcomment.php?br='.$rwc['idofcomment'].'&rb='.$rwc['postid'].'" title="delete"><i class="fa fa-trash-o"></i></a>
+                    <a href="phpfunc/seencomment.php?br='.$rwc['idofcomment'].'" title="approve"><i class="fa fa-check"></i></a>
                 </div>
             </div>
         </li>

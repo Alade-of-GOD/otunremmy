@@ -22,18 +22,19 @@
 		//Now let us generate the sql
 		while(list($key,$val)=each($kt)){
 			if($val<>" " and strlen($val) > 0){
-				$q .= " titleofpost like '%$val%' OR contentofpost like '%$val%' OR category like '%$val%' OR authorofpost like '%$val%' OR categoryofpost like '%$val%' or";
+				$q .= " titleofpost like '%$val%' or";
 			}
 		}// end of while
 		$q=substr($q,0,(strLen($q)-3));
 		$r=substr($r,0,(strLen($r)-3));
 		// this will remove the last or from the string.
-		$query="SELECT * FROM otun_posts WHERE $q ORDER BY dateofpost DESC";
+		$query="SELECT * FROM `otun_posts` WHERE $q ORDER BY idofpost DESC";
 		//} // end of if else based on type value
 		$count=$dbo->prepare($query);
 		$count->execute();
 		$no=$count->rowCount();
-		if($no > 0 ){echo $no. " Posts Found <br><br>";
+		if($no > 0 ){
+			echo $no. " Posts Found <br><br>";
 			foreach ($dbo->query($query) as $row){
 				$postid = $row['idofpost'];
 		        $posttitle = $row['titleofpost'];

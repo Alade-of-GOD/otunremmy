@@ -1,9 +1,14 @@
 <?php
+
+//$host = '46.16.188.12';
+//$username = 'otunwrit_theuser';
+//$password = 'PhemmyAlade_of_GOD106';
+//$database = 'otunwrit_dbofotunwritesotunwritesdbdbofotunwrites';
 global $dbo;
-$info['dbhost_name'] = "localhost";
-$info['database'] = "otunsdb"; // database name
-$info['username'] = "PoG";  // userid
-$info['password'] = "phpmyadmin";   // password
+$info['dbhost_name'] = "46.16.188.12";
+$info['database'] = "otunwrit_dbofotunwritesotunwritesdbdbofotunwrites"; // database name
+$info['username'] = "otunwrit_theuser";  // userid
+$info['password'] = "PhemmyAlade_of_GOD106";   // password
 
 $dbConnString = "mysql:host=" . $info['dbhost_name'] . "; dbname=" . $info['database'];
 
