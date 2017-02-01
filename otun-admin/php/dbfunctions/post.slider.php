@@ -1,6 +1,6 @@
 <?php
     require_once ('connect.inc.php');
-    $sqlpost = "SELECT * FROM `otun_posts` WHERE `active` = 1 ORDER BY `dateofpost` DESC LIMIT 10";
+    $sqlpost = "SELECT * FROM `otun_posts` WHERE `active` = 1 ORDER BY `idofpost` DESC LIMIT 10";
 	if(!$result = $db->query($sqlpost)){
         die('There was an error running the query [' . $db->error . ']');
     }

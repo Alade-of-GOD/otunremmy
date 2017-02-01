@@ -1,7 +1,7 @@
 <?php
     require_once ('connect.inc.php');
 
-    $sqlpost = "SELECT * FROM `otun_posts` WHERE `active` = 1 ORDER BY `dateofpost` DESC LIMIT 0, 1";
+    $sqlpost = "SELECT * FROM `otun_posts` WHERE `active` = 1 ORDER BY `idofpost` DESC LIMIT 0, 1";
 	if(!$result = $db->query($sqlpost)){
         die('There was an error running the query [' . $db->error . ']');
     }
@@ -51,7 +51,7 @@
         ';
 
     }
-    $sqlpost = "SELECT * FROM `otun_posts` WHERE `active` = 1 ORDER BY `dateofpost` DESC LIMIT 1, 1";
+    $sqlpost = "SELECT * FROM `otun_posts` WHERE `active` = 1 ORDER BY `idofpost` DESC LIMIT 1, 1";
 	if(!$result = $db->query($sqlpost)){
         die('There was an error running the query [' . $db->error . ']');
     }
@@ -96,7 +96,7 @@
         ';
 
     }
-    $sqlpost = "SELECT * FROM `otun_posts` WHERE `active` = 1 ORDER BY `dateofpost` DESC LIMIT 2, 1";
+    $sqlpost = "SELECT * FROM `otun_posts` WHERE `active` = 1 ORDER BY `idofpost` DESC LIMIT 2, 1";
 	if(!$result = $db->query($sqlpost)){
         die('There was an error running the query [' . $db->error . ']');
     }
@@ -142,7 +142,7 @@
     }
     echo '</div></div>';
 
-    $sqlpost = "SELECT * FROM `otun_posts` WHERE `active` = 1 ORDER BY `dateofpost` DESC LIMIT 3, 1";
+    $sqlpost = "SELECT * FROM `otun_posts` WHERE `active` = 1 ORDER BY `idofpost` DESC LIMIT 3, 1";
 	if(!$result = $db->query($sqlpost)){
         die('There was an error running the query [' . $db->error . ']');
     }
@@ -193,7 +193,7 @@
         ';
 
     }
-    $sqlpost = "SELECT * FROM `otun_posts` WHERE `active` = 1 ORDER BY `dateofpost` DESC LIMIT 4, 1";
+    $sqlpost = "SELECT * FROM `otun_posts` WHERE `active` = 1 ORDER BY `idofpost` DESC LIMIT 4, 1";
 	if(!$result = $db->query($sqlpost)){
         die('There was an error running the query [' . $db->error . ']');
     }
@@ -238,7 +238,7 @@
         ';
 
     }
-    $sqlpost = "SELECT * FROM `otun_posts` WHERE `active` = 1 ORDER BY `dateofpost` DESC LIMIT 5, 1";
+    $sqlpost = "SELECT * FROM `otun_posts` WHERE `active` = 1 ORDER BY `idofpost` DESC LIMIT 5, 1";
 	if(!$result = $db->query($sqlpost)){
         die('There was an error running the query [' . $db->error . ']');
     }
@@ -285,7 +285,7 @@
 
     echo '</div></div>';
 
-    $sqlpost = "SELECT * FROM `otun_posts` WHERE `active` = 1 ORDER BY `dateofpost` DESC LIMIT 6, 1";
+    $sqlpost = "SELECT * FROM `otun_posts` WHERE `active` = 1 ORDER BY `idofpost` DESC LIMIT 6, 1";
     if(!$result = $db->query($sqlpost)){
         die('There was an error running the query [' . $db->error . ']');
     }
@@ -335,7 +335,7 @@
         ';
 
     }
-    $sqlpost = "SELECT * FROM `otun_posts` WHERE `active` = 1 ORDER BY `dateofpost` DESC LIMIT 7, 1";
+    $sqlpost = "SELECT * FROM `otun_posts` WHERE `active` = 1 ORDER BY `idofpost` DESC LIMIT 7, 1";
     if(!$result = $db->query($sqlpost)){
         die('There was an error running the query [' . $db->error . ']');
     }
@@ -380,7 +380,7 @@
         ';
 
     }
-    $sqlpost = "SELECT * FROM `otun_posts` WHERE `active` = 1 ORDER BY `dateofpost` DESC LIMIT 8, 1";
+    $sqlpost = "SELECT * FROM `otun_posts` WHERE `active` = 1 ORDER BY `idofpost` DESC LIMIT 8, 1";
     if(!$result = $db->query($sqlpost)){
         die('There was an error running the query [' . $db->error . ']');
     }
@@ -426,7 +426,7 @@
     }
     echo '</div></div>';
 
-    $sqlpost = "SELECT * FROM `otun_posts` WHERE `active` = 1 ORDER BY `dateofpost` DESC LIMIT 9, 1";
+    $sqlpost = "SELECT * FROM `otun_posts` WHERE `active` = 1 ORDER BY `idofpost` DESC LIMIT 9, 1";
     if(!$result = $db->query($sqlpost)){
         die('There was an error running the query [' . $db->error . ']');
     }
@@ -477,7 +477,7 @@
         ';
 
     }
-    $sqlpost = "SELECT * FROM `otun_posts` WHERE `active` = 1 ORDER BY `dateofpost` DESC LIMIT 10, 1";
+    $sqlpost = "SELECT * FROM `otun_posts` WHERE `active` = 1 ORDER BY `idofpost` DESC LIMIT 10, 1";
     if(!$result = $db->query($sqlpost)){
         die('There was an error running the query [' . $db->error . ']');
     }
@@ -522,7 +522,7 @@
         ';
 
     }
-    $sqlpost = "SELECT * FROM `otun_posts` WHERE `active` = 1 ORDER BY `dateofpost` DESC LIMIT 11, 1";
+    $sqlpost = "SELECT * FROM `otun_posts` WHERE `active` = 1 ORDER BY `idofpost` DESC LIMIT 11, 1";
     if(!$result = $db->query($sqlpost)){
         die('There was an error running the query [' . $db->error . ']');
     }

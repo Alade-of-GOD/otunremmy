@@ -125,10 +125,10 @@
                                 <select data-placeholder="choose category" name="category" class="form-control chosen-select">
                                     <option value=""></option>
                                     <optgroup label="AMEBO">
-                                        <option value="Amebo Education">Education</option>
-                                        <option value="Amebo Latest Discoveries">Latest Discoveries</option>
-                                        <option value="Amebo Nigeria">Nigeria</option>
-                                        <option value="Amebo Science and Technology">Science and Technology</option>
+                                        <option value="Education">Education</option>
+                                        <option value="Latest Discoveries">Latest Discoveries</option>
+                                        <option value="Nigeria">Nigeria</option>
+                                        <option value="Science and Technology">Science and Technology</option>
                                     </optgroup>
                                     <option value="health">HEALTH</option>
                                     <option value="inpirational">Inspirational</option>
