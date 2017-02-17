@@ -100,6 +100,7 @@
 							</li>
 							<li id="menu-item-338" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-338"><a href="#">Features</a>
 								<ul class="sub-menu">
+									<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-428"><a href="otunwrites.stories.php">Stories</a></li>
 									<li id="menu-item-428" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-428"><a href="#">Amebo</a>
 										<ul class="sub-menu">
 											<li id="menu-item-430" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-430"><a href="otunwrites.post.php?cat=Education">Education</a>

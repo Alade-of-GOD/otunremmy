@@ -2,7 +2,7 @@
 
     $u = $_SESSION['userN'];
     require_once('../otun-admin/php/dbfunctions/connect.inc.php');
-    $broadcastM = "SELECT * FROM `broadcast` WHERE `user` = '$u' AND `flag` = 0";
+    $broadcastM = "SELECT * FROM `broadcast` WHERE `user` = '$u' AND `flag` = 0 ORDER BY `id` DESC";
     if (!$rm = $db->query($broadcastM)){
         die('There was an error running the query [' . $db->error . ']');
     }

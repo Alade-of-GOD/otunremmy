@@ -1,5 +1,4 @@
 <?php include ('header.navbar.php'); ?>
-
 <div class="main-content">
     <ol class="breadcrumb">
         <li><a href="index.php">Home</a></li>
@@ -12,15 +11,24 @@
                     <div class="avatar-w">
                         <img src="assets/images/<?php echo $_SESSION['avatar'];?>" alt="" class="img-max">
                     </div>
-                    <div class="sub-avatar-buttons">
-                        <input type="file" class="btn btn-default btn-sm"><i class="fa fa-pencil"></i> Change Avatar</input>
-                    </div>
+                    <form action="assets/images/profileedit.php?imgtoedit=<?php echo $_SESSION['avatar']; ?>" method="post" enctype="multipart/form-data">
+                        <div class="sub-avatar-buttons">
+                            <input type="file" accept="image/*" class="btn btn-default btn-sm" name="avatar">Change Avatar</input>
+                            <button class="fa fa-pencil" type="submit"></button>
+                        </div>
+                    </form>
                 </div>
                 <div class="col-sm-9 col-md-5 col-lg-4">
                     <div class="profile-main-info">
                         <h1><?php echo $_SESSION['userN']; ?></h1>
                         <p><?php echo $_SESSION['note']; ?></p>
-                        <a href="#"><?php echo $_SESSION['fName']; ?><i class="fa fa-external-link-square icon-left-margin"></i></a>
+                        <form style="display: none;" id="openLog" method="post" action="assets/images/profileedit.php?rel=<?php echo $_SESSION['userN']; ?>">
+                            <div class="row-md-12 col-md-12"><input name="formerEmail" value="<?php echo $_SESSION['userE']; ?>" class="form-control" /></div>
+                            <div class="row-md-12 col-md-12"><input name="newPass" placeholder="change password" class="form-control" /></div>
+                            <div class="row-md-12 col-md-12"><input name="newPass_2" placeholder="confirm password" class="form-control" /></div>
+                            <div class="row-md-12 col-md-12"><input type="submit" value="update" class="btn-warning" /></div>
+                        </form>
+                        <a href="#" onclick="openLog()"><?php echo $_SESSION['fName']; ?><i class="fa fa-external-link-square icon-left-margin"></i></a>
                     </div>
                     <div class="profile-details visible-lg">
                         <div class="row">
@@ -28,7 +36,7 @@
                                 <div class="icon"><i class="fa fa-map-marker"></i></div><?php echo $_SESSION['add']; ?>
                             </div>
                             <div class="col-lg-4">
-                                <div class="icon"><i class="fa fa-calendar"></i></div> Jul 17
+                                <div class="icon"><i class="fa fa-user"></i></div><?php echo $_SESSION['userRole']; ?>
                             </div>
                             <div class="col-lg-4">
                                 <div class="icon"><i class="fa fa-<?php echo $_SESSION['sex']; ?>"></i></div> <?php echo $_SESSION['sex']; ?>
@@ -131,7 +139,8 @@
                                         <option value="Science and Technology">Science and Technology</option>
                                     </optgroup>
                                     <option value="health">HEALTH</option>
-                                    <option value="inpirational">Inspirational</option>
+                                    <option value="inpirational">INSPIRATIONAL</option>
+                                    <option value="story">STORIES</option>
                                     <optgroup label="POEM">
                                         <option value="End Time">End Time</option>
                                         <option value="Grace">Grace</option>
@@ -180,7 +189,7 @@
 <script src="../ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
 <script src='ad67372f4b8b70896e8a596720082ac6.js'></script>
 <script src='54af62862bafb8d935ed7facd521918f.js'></script>
-<script src='shows.js'></script>
+<script src='show.js'></script>
 </body>
 </html>
 <?php $db->close(); ?>

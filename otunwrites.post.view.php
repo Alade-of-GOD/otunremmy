@@ -20,7 +20,7 @@
 
 	<script src="otun-content/themes/voice/js/html5.js"></script>
 
-	<title>otun writes &#8211; otunremmy blog</title>
+	<title>otun writes &#8211; <?php echo $posttitle; ?></title>
 	<link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
 	<link rel='dns-prefetch' href='http://s.w.org/' />
 	<style type="text/css">
@@ -107,6 +107,7 @@
 							</li>
 							<li id="menu-item-338" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-338"><a href="#">Features</a>
 								<ul class="sub-menu">
+									<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-428"><a href="otunwrites.stories.php">Stories</a></li>
 									<li id="menu-item-428" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-428"><a href="#">Amebo</a>
 										<ul class="sub-menu">
 											<li id="menu-item-430" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-430"><a href="otunwrites.post.php?cat=Education">Education</a>
@@ -156,13 +157,13 @@
 						<article id="post-191" class="vce-single post-191 post type-post status-publish format-standard has-post-thumbnail hentry category-food tag-chocolates tag-food-2 tag-magazine tag-sugar tag-sweet">
 							<header class="entry-header">
 								<span class="meta-category">
-									<a href="#" class="category-2"><?php echo $category; ?></a> &#8211;
+									<a href="#" class="category-2"><?php echo strtoupper($category); ?></a> &#8211;
 									<a href="#" class="category-2"><?php echo $posttitle; ?></a>
 								</span>
 								<h1 class="entry-title"><?php echo $posttitle; ?></h1>
 								<div class="entry-meta">
 									<div class="meta-item comments">
-										<a href="indexbbbf.html?p=191#comments"><?php echo $postnumcomment." comments"; ?> </a>
+										<a href="#comments"><?php echo $postnumcomment." comments"; ?> </a>
 									</div>
 									<div class="meta-item author">
 										<span class="vcard author">
@@ -230,7 +231,7 @@
 						<ul>
 
 							<?php
-								$sqlpost = "SELECT * FROM `otun_posts` ORDER BY `viewsofpost` DESC LIMIT 0, 6";
+								$sqlpost = "SELECT * FROM `otun_posts` WHERE `active` = 1 ORDER BY `viewsofpost` DESC LIMIT 0, 6";
 								if(!$result = $db->query($sqlpost)){
 									die('There was an error running the query [' . $db->error . ']');
 								}
@@ -254,7 +255,7 @@
 							<h4 class="widget-title">About the writer</h4>
 							<div class="main-box-inside">
 								<div class="data-image">
-									<img src="<?php echo "otun-admin/authors/img/".$authorgravater; ?>" width="112" height="112" alt="PoG" class="avatar avatar-112 wp-user-avatar wp-user-avatar-112 alignnone photo" />
+									<img src="<?php echo "admins/assets/images/".$authorgravater; ?>" width="112" height="112" alt="PoG" class="avatar avatar-112 wp-user-avatar wp-user-avatar-112 alignnone photo" />
 								</div>
 								<div class="data-content">
 									<h6 class="author-title"><?php echo $authoruname; ?></h6>

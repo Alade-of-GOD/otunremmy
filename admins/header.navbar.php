@@ -39,7 +39,7 @@
     <div class="page-header">
         <div class="header-links hidden-xs">
             <div class="top-search-w pull-right">
-                <input type="text" class="top-search" placeholder="Search"/>
+                <!--<input type="text" class="top-search" placeholder="Search"/>-->
             </div>
             <div class="dropdown hidden-sm hidden-xs">
                 <a href="#" data-toggle="dropdown" class="header-link"><i class="fa fa-bolt"></i> Alerts <span class="badge alert-animated"><?php echo $_SESSION['newAlerts']; ?></span></a>
@@ -51,16 +51,15 @@
             <div class="dropdown">
                 <a href="#" class="header-link clearfix" data-toggle="dropdown">
                     <div class="avatar">
-                        <img src="../blog/otun-admin/authors/img/<?php echo $_SESSION['avatar'];?>" alt="">'
+                        <img src="assets/images/<?php echo $_SESSION['avatar'];?>" alt="">'
                     </div>
                     <div class="user-name-w">
                         <?php echo $_SESSION['userN'];?> <i class="fa fa-caret-down"></i>
                     </div>
                 </a>
                 <ul class="dropdown-menu dropdown-inbar">
-                    <li><a href="#"><span class="label label-warning">2</span> <i class="fa fa-envelope"></i> Messages</a></li>
-                    <li><a href="#"><span class="label label-warning">4</span> <i class="fa fa-users"></i> Friends</a></li>
                     <li><a href="profile.php"><i class="fa fa-user"></i>Profile Account</a></li>
+                    <li><a href="editmeprofile.php"><i class="fa fa-edit"></i>Edit Profile</a></li>
                     <li><a href="logout.php"><i class="fa fa-power-off"></i> Logout</a></li>
                 </ul>
             </div>
@@ -88,6 +87,11 @@
             <li>
                 <a href="index.php#postview" data-toggle="tooltip" data-placement="right" title="" data-original-title="Posts">
                     <i class="fa fa-file-text-o"></i>
+                </a>
+            </li>
+            <li>
+                <a href="editmeprofile.php" data-toggle="tooltip" data-placement="right" title="" data-original-title="Edit Profile">
+                    <i class="fa fa-edit"></i>
                 </a>
             </li>
             <li>

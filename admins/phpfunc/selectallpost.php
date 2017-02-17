@@ -1,7 +1,7 @@
 <?php
-
+    $au = $_SESSION['fName'];
     require_once('../otun-admin/php/dbfunctions/connect.inc.php');
-    $selectallpost = "SELECT * FROM `otun_posts`";
+    $selectallpost = "SELECT * FROM `otun_posts` WHERE authorofpost = '$au'";
     if (!$result = $db->query($selectallpost)){
         die('There was an error running the query [' . $db->error . ']');
     }

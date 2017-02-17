@@ -39,6 +39,11 @@
                 $sex = $row['gender'];
                 $note = $row['aboutnote'];
                 $add = $row['location'];
+                $userE = $row['email'];
+                $userLoc = $row['location'];
+                $userNote = $row['aboutnote'];
+                $userGend = $row['gender'];
+                $userRole = $row['priviledge'];
             }
             $_SESSION['id'] = $id;
             $_SESSION['userN'] = $userN;
@@ -47,6 +52,11 @@
             $_SESSION['sex'] = $sex;
             $_SESSION['note'] = $note;
             $_SESSION['add'] = $add;
+            $_SESSION['userE'] = $userE;
+            $_SESSION['userLoc'] = $userLoc;
+            $_SESSION['userNote'] = $userNote;
+            $_SESSION['userGend'] = $userGend;
+            $_SESSION['userRole'] = $userRole;
 
             $s = "SELECT COUNT(*) AS c FROM `otun_posts`";
             if (!$r = $db->query($s)){

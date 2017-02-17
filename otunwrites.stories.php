@@ -45,7 +45,7 @@
 	</script>
 	<script type='text/javascript'>
 	/* <![CDATA[ */
-		var vce_js_settings = {"sticky_header":"1","sticky_header_offset":"700","sticky_header_logo":"","logo_mobile":"","logo_mobile_retina":"","rtl_mode":"0","ajax_mega_menu":"1","mega_menu_slider":"","mega_menu_subcats":"","lay_fa_grid_center":"","full_slider_autoplay":"","grid_slider_autoplay":"","fa_big_opacity":{"1":"0.5","2":"0.7"}};
+		var vce_js_settings = {"sticky_header":"1","sticky_header_offset":"700","sticky_header_logo":"","logo":"http:\/\/demo.mekshq.com\/voice\/otun-content\/themes\/voice\/images\/voice_logo.png","logo_retina":"http:\/\/demo.mekshq.com\/voice\/otun-content\/uploads\/2015\/05\/voice_logo@2x.png","logo_mobile":"","logo_mobile_retina":"","rtl_mode":"0","ajax_url":"http:\/\/demo.mekshq.com\/voice\/otun-admin\/admin-ajax.php","ajax_mega_menu":"1","mega_menu_slider":"","mega_menu_subcats":"","lay_fa_grid_center":"","full_slider_autoplay":"","grid_slider_autoplay":"","fa_big_opacity":{"1":"0.5","2":"0.7"}};
 	/* ]]> */
 	</script>
 	<script>
@@ -96,11 +96,11 @@
 				<div class="container">
 					<nav id="site-navigation" class="main-navigation" role="navigation">
 						<ul id="vce_main_navigation_menu" class="nav-menu">
-							<li id="menu-item-211" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-207 current_page_item menu-item-211"><a href="index.php">Home</a>
+							<li id="menu-item-211" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="index.php">Home</a>
 							</li>
 							<li id="menu-item-338" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-338"><a href="#">Features</a>
 								<ul class="sub-menu">
-									<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-428"><a href="otunwrites.stories.php">Stories</a></li>
+									<li id="menu-item-212" class="current-menu-item page_item page-item-207 current_page_item menu-item-211"><a href="otunwrites.stories.php">Stories</a></li>
 									<li id="menu-item-428" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-428"><a href="#">Amebo</a>
 										<ul class="sub-menu">
 											<li id="menu-item-430" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-430"><a href="otunwrites.post.php?cat=Education">Education</a>
@@ -124,7 +124,7 @@
 									<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-243"><a href="otunwrites.post.php?cat=Special">Special</a></li>
 								</ul>
 							</li>
-							<li id="menu-item-212"><a href="otunwrites.inspirational.php">Inspirational</a></li>
+							<li class=""><a href="otunwrites.inspirational.php">Inspirational</a></li>
 							<li id="menu-item-212"><a href="otunwrites.about.php">About</a></li>
 							<li id="menu-item-296" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-296"><a href="contact.inc.php">Contact</a>
 							</li>
@@ -144,31 +144,34 @@
 			</div>
 		</header>
 		<div id="main-wrapper">
-			<div id="vce-featured-grid" class="vce-featured-grid">
-				<?php include ('otun-admin/php/dbfunctions/post.slider.php'); ?>
-			</div>
 			<div id="content" class="container site-content">
 				<div id="primary" class="vce-main-content">
-					<div id="main-box-11" class="main-box vce-border-top  ">
-						<h3 class="main-box-title ">Trending Articles</h3>
-						<div class="main-box-inside ">
+					<div class="main-box">
+						<div class="main-box-head">
+							<h1 class="main-box-title" style="color: #cf4d35;">ARTICLES</h1>
+						</div>
+						<div class="main-box-inside">
+							<?php
+								include ('otun-admin/php/dbfunctions/post.stories.shooter.php');
+						 	?>
 							<div class="vce-loop-wrap" >
-								<?php include ('otun-admin/php/dbfunctions/post.mostviewed.php'); ?>
 							</div>
 						</div>
 					</div>
-					<div class="main-box-inside ">
-						<p>
-							<?php include ('adslarger.php'); ?>
-						</p>
-					</div>
-					<div class="vce-module-columns">
-						<?php include ('otun-admin/php/dbfunctions/post.recent.php'); ?>
-					</div>
 				</div>
 				<aside id="sidebar" class="sidebar right">
-					<?php include ("advert.php") ?>
+					<div id="vce_posts_widget-9" class="widget vce_posts_widget">
+						<h4 class="widget-title"><span>You may like</span></h4>
+						<ul class="vce-post-list" data-autoplay="">
+							<?php include ('otun-admin/php/dbfunctions/post.maylike.php'); ?>
+					  	</ul>
+					</div>
+					<?php include ("advert.php"); ?>
 				</aside>
+			</div>
+			<div class="main-box-inside ">
+				<p><img style="margin: 0 auto;  display: block;"  width="728" height="90" src="otun-content/uploads/2015/04/blank_ad2.jpg">
+				</p>
 			</div>
 			<footer id="footer" class="site-footer">
 				<?php
@@ -180,7 +183,6 @@
 	<a href="top" id="back-top"><i class="fa fa-arrow-up"></i></a>
 	<script type='text/javascript' src='otun-content/uploads/minit/cfa3f9c3a3b15876a4062bf71b6a9ece.js'></script>
 </body>
-
 </html>
 <?php
 	$db->close();

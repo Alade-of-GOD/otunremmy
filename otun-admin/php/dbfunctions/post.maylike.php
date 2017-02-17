@@ -25,7 +25,7 @@
         //echo $i."<br>";
     //$i = $pic + 10;
 
-    $sqlpost = "SELECT * FROM `otun_posts` WHERE `active` = 1 ORDER BY `numberoflikes` DESC LIMIT 0, 6";
+    $sqlpost = "SELECT * FROM `otun_posts` WHERE `active` = 1 ORDER BY `viewsofpost` DESC LIMIT 0, 6";
 	if(!$result = $db->query($sqlpost)){
         die('There was an error running the query [' . $db->error . ']');
     }
